@@ -20,7 +20,7 @@ class Solution extends Component {
             <>
                 <section className="solution-area ptb-100 extra-pb jarallax">
                     <div className="container">
-                        <div className="row align-items-center">
+                        {/* <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12">
                                 <div className="solution-content">
                                     <span className="sub-title">Watch Our Video</span>
@@ -43,7 +43,7 @@ class Solution extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
 

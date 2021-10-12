@@ -1,53 +1,53 @@
-import React, { Component } from 'react';
-import dynamic from 'next/dynamic';
-const OwlCarousel = dynamic(import('react-owl-carousel3'));
+    import React, { Component } from 'react';
+    import dynamic from 'next/dynamic';
+    const OwlCarousel = dynamic(import('react-owl-carousel3'));
 
-const options = {
-    loop: true,
-    nav: false,
-    dots: true,
-    autoplayHoverPause: true,
-    autoplay: true,
-    mouseDrag: false,
-    touchDrag: false,
-    navText: [
-        "<i className='flaticon-left-chevron'></i>",
-        "<i className='flaticon-right-chevron'></i>"
-    ],
-    responsive: {
-        0: {
-            items: 1,
-        },
-        768: { 
-            items: 2,
-        },
-        1200: {
-            items: 3,
-        },
-        1550: {
-            items: 4,
+    const options = {
+        loop: true,
+        nav: false,
+        dots: true,
+        autoplayHoverPause: true,
+        autoplay: true,
+        mouseDrag: false,
+        touchDrag: false,
+        navText: [
+            "<i className='flaticon-left-chevron'></i>",
+            "<i className='flaticon-right-chevron'></i>"
+        ],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: { 
+                items: 2,
+            },
+            1200: {
+                items: 3,
+            },
+            1550: {
+                items: 4,
+            }
         }
     }
-}
 
-class TestimonialsTwo extends Component {
-    
-    _isMounted = false;
-    state = {
-        display:false
-    }
+    class TestimonialsTwo extends Component {
+        
+        _isMounted = false;
+        state = {
+            display:false
+        }
 
-    componentDidMount(){ 
-        this._isMounted = true;
-        this.setState({ display: true }) 
-    }
+        componentDidMount(){ 
+            this._isMounted = true;
+            this.setState({ display: true }) 
+        }
 
-    componentWillUnmount() {
-        this._isMounted = false;
-    }
+        componentWillUnmount() {
+            this._isMounted = false;
+        }
 
-    render() {
-        return (
+        render() {
+            return (
             <>
                 <section className="feedback-area feedback-area-two ptb-100">
                 <div className="container">
@@ -69,8 +69,8 @@ class TestimonialsTwo extends Component {
                         매출도 많은 도움이 되었어요 감사해요”
                         </p>
                         <div className="client-info">
-                        
                         <h3>커피파는 청년 고객님</h3>
+                        <img src="/images/client-image/client1.png" alt="image" />
                         </div>
                     </div>
 
@@ -81,8 +81,8 @@ class TestimonialsTwo extends Component {
                         웹사이트가 나와서 너무 잘 이용하고 있어요”
                         </p>
                         <div className="client-info">
-                        
                         <h3>살롱하는새댁 고객님</h3>
+                        <img src="/images/client-image/client2.png" alt="image" />
                         </div>
                     </div>
 
@@ -93,8 +93,8 @@ class TestimonialsTwo extends Component {
                         감사드려요~~^^”
                         </p>
                         <div className="client-info">
-                        
                         <h3>김XX원장 고객님</h3>
+                        <img src="/images/client-image/client3.png" alt="image" />
                         </div>
                     </div>
 
@@ -105,19 +105,20 @@ class TestimonialsTwo extends Component {
                         싸이트도 너무 이쁘고 관리도 너무 편하네요”
                         </p>
                         <div className="client-info">
-                        
                         <h3>이XX 고객님</h3>
+                        <img src="/images/client-image/client4.png" alt="image" />
                         </div>
                     </div>
 
                     <div className="single-feedback-item border">
                         <p>
-                        “신속 정확한 일처리에 감탄 중이에요 직원분들 다 본인 일처럼 꼼꼼하게 수익&반응형 웹페이지를 만들어 주셔서 매출에 너무 큰 도움이 되고 있어요.”
+                        “신속 정확한 일처리에 감탄 중이에요 직원분들 다 본인
+                        일처럼 꼼꼼하게 수익&nap;반응형 웹페이지를 만들어 주셔서
+                        매출에 너무 큰 도움이 되고 있어요.”
                         </p>
                         <div className="client-info">
-                        
                         <h3>김XX 고객님</h3>
-                        
+                        <img src="/images/client-image/client5.png" alt="image" />
                         </div>
                     </div>
                     </OwlCarousel>
@@ -127,7 +128,7 @@ class TestimonialsTwo extends Component {
                 </section>
             </>
             );
+            }
         }
-    }
 
-export default TestimonialsTwo;
+    export default TestimonialsTwo;

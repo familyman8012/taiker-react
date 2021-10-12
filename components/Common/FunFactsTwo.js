@@ -10,10 +10,10 @@ class FunFactsTwo extends Component {
                             <div className="fun-fact-card">
                                 <i className='bx bx-list-check'></i>
                                 <h3>
-                                    <span className="odometer">524</span>
+                                    <span className="odometer">128</span>
                                     <span className="sign-icon">+</span>
                                 </h3>
-                                <p>Completed Projects</p>
+                                <p>완료된 작업</p>
                             </div>
                         </div>
 
@@ -21,10 +21,10 @@ class FunFactsTwo extends Component {
                             <div className="fun-fact-card">
                                 <i className='bx bx-smile'></i>
                                 <h3>
-                                    <span className="odometer">560</span>
-                                    <span className="sign-icon">+</span>
+                                    <span className="odometer">100</span>
+                                    <span className="sign-icon">%</span>
                                 </h3>
-                                <p>Happy Clients</p>
+                                <p>고객 만족도</p>
                             </div>
                         </div>
     
@@ -32,10 +32,10 @@ class FunFactsTwo extends Component {
                             <div className="fun-fact-card">
                                 <i className='bx bx-user-plus'></i>
                                 <h3>
-                                    <span className="odometer">128</span>
+                                    <span className="odometer">17</span>
                                     <span className="sign-icon">+</span>
                                 </h3>
-                                <p>Expert Members</p>
+                                <p>전문인력</p>
                             </div>
                         </div>
 
@@ -43,10 +43,10 @@ class FunFactsTwo extends Component {
                             <div className="fun-fact-card">
                                 <i className='bx bx-trophy'></i>
                                 <h3>
-                                    <span className="odometer">29</span>
+                                    <span className="odometer">15</span>
                                     <span className="sign-icon">+</span>
                                 </h3>
-                                <p>Winning Awards</p>
+                                <p>YY AGENCY의 회원사</p>
                             </div>
                         </div>
                     </div>

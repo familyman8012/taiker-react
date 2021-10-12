@@ -27,11 +27,11 @@ class About2 extends Component {
                 <WhyChooseUs />
                 <Solution />
                 <Testimonials />
-                <div className="pt-0">
+                {/* <div className="pt-0">
                     <OurTeamTwo />
-                </div>
-                <SubscribeStyleThree />
-                <PartnerWithTitle />
+                </div> */}
+                {/* <SubscribeStyleThree /> */}
+                {/* <PartnerWithTitle /> */}
                 <Footer />
             </>
         );

@@ -1,28 +1,28 @@
-import React, { Component } from 'react';
-import Navbar from '../components/Layout/Navbar';
-import PageHeader from '../components/Common/PageHeader';
-import ProjectsCard from '../components/Projects/ProjectsCard';
-import Footer from '../components/Layout/Footer';
+    import React, { Component } from 'react';
+    import Navbar from '../components/Layout/Navbar';
+    import PageHeader from '../components/Common/PageHeader';
+    import ProjectsCard from '../components/Projects/ProjectsCard';
+    import Footer from '../components/Layout/Footer';
 
-class Projects extends Component {
-    render() {
-        return (
+    class Projects extends Component {
+        render() {
+            return (
             <>
                 <Navbar />
 
-                <PageHeader 
-                    pageTitle="Projects Style One" 
-                    breadcrumbTextOne="Home" 
-                    breadcrumbUrl="/" 
-                    breadcrumbTextTwo="Projects Style One" 
+                <PageHeader
+                pageTitle="YY AGENCY 포토폴리오"
+                breadcrumbTextOne="Home"
+                breadcrumbUrl="/"
+                breadcrumbTextTwo="YY AGENCY 포토폴리오"
                 />
 
                 <ProjectsCard />
-                
+
                 <Footer />
             </>
-        );
+            );
+        }
     }
-}
 
-export default Projects;
+    export default Projects;
