@@ -3523,11 +3523,18 @@ Feedback Area CSS
   p {
     color: #565968;
     margin-bottom: 0;
-    height: 337px;
+    height: 200px;
     box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10;
+    line-height: 1.5em;
+    max-height: 10em;
     font: {
       weight: normal;
-      style: italic;
+
       size: 18px;
     }
   }
