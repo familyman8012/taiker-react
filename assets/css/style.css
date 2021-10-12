@@ -3931,6 +3931,9 @@ Feedback Area CSS
 .single-feedback-item p {
   color: #565968;
   margin-bottom: 0;
+  height: 337px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-weight: normal;
   font-style: italic;
   font-size: 18px;

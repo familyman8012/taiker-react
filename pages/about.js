@@ -17,10 +17,10 @@ class About2 extends Component {
             <>
                 <Navbar />
                 <PageHeader 
-                    pageTitle="About Us Two" 
+                    pageTitle="About Us" 
                     breadcrumbTextOne="Home" 
                     breadcrumbUrl="/" 
-                    breadcrumbTextTwo="About Us Two" 
+                    breadcrumbTextTwo="About Us" 
                 />
                 <AboutArea />
                 <FunFactsTwo />

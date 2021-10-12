@@ -18,12 +18,12 @@ class Footer extends Component {
                                             <i className="flaticon-phone-call"></i>
                                             <span>Mon to Fri : 10:00AM - 06:00PM</span>
                                            
-                                            <a href="tel:+8201071452679">+8201071452679</a>
+                                            <a href="tel:+8201071452679">010-7145-2679</a>
                                         </li>
                                         <li>
                                             <i className="flaticon-email"></i>
                                             <span>Do You Have a Question?</span>
-                                            <a href="mailto:example@taiker.com">example@taiker.com</a>
+                                            <a href="mailto:example@taiker.com">yyagency77@gmail.com</a>
                                         </li>
                                         <li>
                                             <i className="flaticon-social-media"></i>
@@ -105,7 +105,7 @@ class Footer extends Component {
                                     <ul>
                                         <li>
                                             <Link href="/terms-and-conditions">
-                                                <a>Terms & Conditions</a>
+                                                <a>Terms &amp; Conditions</a>
                                             </Link>
                                         </li>
                                         <li>

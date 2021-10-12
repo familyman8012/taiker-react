@@ -10,7 +10,7 @@ import Link from 'next/link';
                         <div className="container mt-80">
                         <div className="banner-content text-center">
                             <h1>고객의 비지니스 성공을 <br/>기원합니다.</h1>
-                            <p>명품 수익&amp;반응형 홈페이지 제작</p>
+                            <p>명품 수익 &amp; 반응형 홈페이지 제작</p>
 
                             <div className="banner-btn">
                             <Link href="/contact">
