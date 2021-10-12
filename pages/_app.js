@@ -25,7 +25,7 @@ export default withRedux(initStore)(
 
         // Preloader
         state = {
-            loading: true
+            loading: false
         };
         componentDidMount() {
             this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2000); 

@@ -5,10 +5,7 @@ import Projects from '../components/HomeNine/Projects';
 import FunFacts from '../components/Common/FunFacts';
 import TestimonialsTwo from '../components/Common/TestimonialsTwo';
 import PricingStyleFive from '../components/Pricing/PricingStyleFive';
-import OurTeamTwo from '../components/Common/OurTeamTwo';
 import LetsGetToWork from '../components/Common/LetsGetToWork';
-import Clients from '../components/HomeSeven/Clients';
-import SubscribeBoxed from '../components/Common/SubscribeBoxed';
 import Footer from '../components/Layout/Footer';
 
 class Index9 extends Component {
@@ -21,10 +18,7 @@ class Index9 extends Component {
                 <FunFacts />
                 <TestimonialsTwo />
                 <PricingStyleFive />
-                {/* <OurTeamTwo /> */}
                 <LetsGetToWork /> 
-                {/* <Clients /> */}
-                {/* <SubscribeBoxed /> */}
                 <Footer/> 
             </>
         );

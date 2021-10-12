@@ -6,34 +6,28 @@ import FunFactsTwo from '../components/Common/FunFactsTwo';
 import WhyChooseUs from '../components/AboutTwo/WhyChooseUs';
 import Solution from '../components/Common/Solution';
 import Testimonials from '../components/Common/Testimonials';
-import OurTeamTwo from '../components/Common/OurTeamTwo';
-import SubscribeStyleThree from '../components/Common/SubscribeStyleThree';
-import PartnerWithTitle from '../components/Common/Partner/PartnerWithTitle';
 import Footer from '../components/Layout/Footer';
+import { AboutSeo } from '../components/Common/Seo';
 
 class About2 extends Component {
     render() {
         return (
-            <>
-                <Navbar />
-                <PageHeader 
-                    pageTitle="About Us" 
-                    breadcrumbTextOne="Home" 
-                    breadcrumbUrl="/" 
-                    breadcrumbTextTwo="About Us" 
-                />
-                <AboutArea />
-                <FunFactsTwo />
-                <WhyChooseUs />
-                <Solution />
-                <Testimonials />
-                {/* <div className="pt-0">
-                    <OurTeamTwo />
-                </div> */}
-                {/* <SubscribeStyleThree /> */}
-                {/* <PartnerWithTitle /> */}
-                <Footer />
-            </>
+          <>
+            <AboutSeo />
+            <Navbar />
+            <PageHeader
+              pageTitle="About Us"
+              breadcrumbTextOne="Home"
+              breadcrumbUrl="/"
+              breadcrumbTextTwo="About Us"
+            />
+            <AboutArea />
+            <FunFactsTwo />
+            <WhyChooseUs />
+            <Solution />
+            <Testimonials />
+            <Footer />
+          </>
         );
     }
 }
