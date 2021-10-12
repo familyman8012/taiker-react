@@ -1869,12 +1869,12 @@ Main Banner Area CSS
 }
 
 .hero-banner.banner-bg1 {
-  background: transparent url(../../images/banner-bg1.jpg) right top no-repeat;
+  background: transparent url(/images/banner-bg1.jpg) right top no-repeat;
   border-bottom: 1px solid #f7f7f7;
 }
 
 .hero-banner.banner-bg2 {
-  background: transparent url(../../images/banner-bg2.jpg) left top no-repeat;
+  background: transparent url(/images/banner-bg2.jpg) left top no-repeat;
   border-bottom: 1px solid #f7f7f7;
 }
 
@@ -3018,7 +3018,7 @@ Fun Facts Area CSS
   opacity: 0.4;
   height: 100%;
   z-index: -1;
-  background-image: url(../../images/bg_lines.svg);
+  background-image: url(/images/bg_lines.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3729,7 +3729,7 @@ Solution Area CSS
   position: relative;
   z-index: 1;
   background-color: #00b9f1;
-  background-image: url("../../images/solution-bg.jpg");
+  background-image: url("/images/solution-bg.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3910,7 +3910,7 @@ Feedback Area CSS
   opacity: 0.4;
   height: 60%;
   z-index: -1;
-  background-image: url(../../images/bg_lines.svg);
+  background-image: url(/images/bg_lines.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -4008,7 +4008,7 @@ Pricing Area CSS
   position: relative;
   z-index: 1;
   overflow: hidden;
-  background-image: url(../../images/shape-wave.png);
+  background-image: url(/images/shape-wave.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -5069,7 +5069,7 @@ Subscribe Area CSS
   z-index: 1;
   padding: 80px;
   background-color: #00b9f1;
-  background-image: url(../../images/subscribe-bg.jpg);
+  background-image: url(/images/subscribe-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5097,7 +5097,7 @@ Subscribe Area CSS
   opacity: 0.7;
   height: 100%;
   z-index: -1;
-  background-image: url(../../images/bg_lines.svg);
+  background-image: url(/images/bg_lines.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -5208,11 +5208,11 @@ Page Title Area CSS
 }
 
 .page-title-area.page-title-bg1 {
-  background: transparent url(../../images/banner-bg1.jpg) right top no-repeat;
+  background: transparent url(/images/banner-bg1.jpg) right top no-repeat;
 }
 
 .page-title-area.page-title-bg2 {
-  background: transparent url(../../images/banner-bg2.jpg) left top no-repeat;
+  background: transparent url(/images/banner-bg2.jpg) left top no-repeat;
 }
 
 .page-title-area .shape-img7 {
@@ -5447,15 +5447,15 @@ Sidebar Area CSS
 }
 
 .widget-area .widget_aronix_posts_thumb .item .thumb .fullimage.bg1 {
-  background-image: url(../../images/blog-image/blog-image7.jpg);
+  background-image: url(/images/blog-image/blog-image7.jpg);
 }
 
 .widget-area .widget_aronix_posts_thumb .item .thumb .fullimage.bg2 {
-  background-image: url(../../images/blog-image/blog-image8.jpg);
+  background-image: url(/images/blog-image/blog-image8.jpg);
 }
 
 .widget-area .widget_aronix_posts_thumb .item .thumb .fullimage.bg3 {
-  background-image: url(../../images/blog-image/blog-image9.jpg);
+  background-image: url(/images/blog-image/blog-image9.jpg);
 }
 
 .widget-area .widget_aronix_posts_thumb .item .info {
@@ -8837,15 +8837,15 @@ AI & Machine Learning Page CSS
 }
 
 .ml-bg1 {
-  background-image: url("../../images/machine-learning/slider/ml-slider1.jpg");
+  background-image: url("/images/machine-learning/slider/ml-slider1.jpg");
 }
 
 .ml-bg2 {
-  background-image: url("../../images/machine-learning/slider/ml-slider2.jpg");
+  background-image: url("/images/machine-learning/slider/ml-slider2.jpg");
 }
 
 .ml-bg3 {
-  background-image: url("../../images/machine-learning/slider/ml-slider3.jpg");
+  background-image: url("/images/machine-learning/slider/ml-slider3.jpg");
 }
 
 .machine-learning-slider .owl-item img {
@@ -9136,7 +9136,7 @@ Portfolio Agency Page CSS
 }
 
 .pa-bg1 {
-  background-image: url("../../images/portfolio-agency/pa-slider1.jpg");
+  background-image: url("/images/portfolio-agency/pa-slider1.jpg");
 }
 
 /*================================================

@@ -1597,11 +1597,11 @@ Main Banner Area CSS
   z-index: 1;
 
   &.banner-bg1 {
-    background: transparent url(../../images/banner-bg1.jpg) right top no-repeat;
+    background: transparent url(/images/banner-bg1.jpg) right top no-repeat;
     border-bottom: 1px solid #f7f7f7;
   }
   &.banner-bg2 {
-    background: transparent url(../../images/banner-bg2.jpg) left top no-repeat;
+    background: transparent url(/images/banner-bg2.jpg) left top no-repeat;
     border-bottom: 1px solid #f7f7f7;
   }
   .container-fluid {
@@ -2659,7 +2659,7 @@ Fun Facts Area CSS
     height: 100%;
     z-index: -1;
     background: {
-      image: url(../../images/bg_lines.svg);
+      image: url(/images/bg_lines.svg);
       repeat: no-repeat;
       position: center;
       size: cover;
@@ -3346,7 +3346,7 @@ Solution Area CSS
   z-index: 1;
   background: {
     color: $main-color;
-    image: url("../../images/solution-bg.jpg");
+    image: url("/images/solution-bg.jpg");
     position: center center;
     size: cover;
     repeat: no-repeat;
@@ -3499,7 +3499,7 @@ Feedback Area CSS
       height: 60%;
       z-index: -1;
       background: {
-        image: url(../../images/bg_lines.svg);
+        image: url(/images/bg_lines.svg);
         repeat: no-repeat;
         position: center;
         size: cover;
@@ -3612,7 +3612,7 @@ Pricing Area CSS
   z-index: 1;
   overflow: hidden;
   background: {
-    image: url(../../images/shape-wave.png);
+    image: url(/images/shape-wave.png);
     size: cover;
     repeat: no-repeat;
   }
@@ -4634,7 +4634,7 @@ Subscribe Area CSS
   padding: 80px;
   background: {
     color: $main-color;
-    image: url(../../images/subscribe-bg.jpg);
+    image: url(/images/subscribe-bg.jpg);
     position: center center;
     size: cover;
     repeat: no-repeat;
@@ -4661,7 +4661,7 @@ Subscribe Area CSS
     height: 100%;
     z-index: -1;
     background: {
-      image: url(../../images/bg_lines.svg);
+      image: url(/images/bg_lines.svg);
       repeat: no-repeat;
       position: center;
       size: cover;
@@ -4763,10 +4763,10 @@ Page Title Area CSS
   border-bottom: 1px solid #fbfbfb;
 
   &.page-title-bg1 {
-    background: transparent url(../../images/banner-bg1.jpg) right top no-repeat;
+    background: transparent url(/images/banner-bg1.jpg) right top no-repeat;
   }
   &.page-title-bg2 {
-    background: transparent url(../../images/banner-bg2.jpg) left top no-repeat;
+    background: transparent url(/images/banner-bg2.jpg) left top no-repeat;
   }
   .shape-img7 {
     left: 75%;
@@ -4988,13 +4988,13 @@ Sidebar Area CSS
             position: center center !important;
           }
           &.bg1 {
-            background-image: url(../../images/blog-image/blog-image7.jpg);
+            background-image: url(/images/blog-image/blog-image7.jpg);
           }
           &.bg2 {
-            background-image: url(../../images/blog-image/blog-image8.jpg);
+            background-image: url(/images/blog-image/blog-image8.jpg);
           }
           &.bg3 {
-            background-image: url(../../images/blog-image/blog-image9.jpg);
+            background-image: url(/images/blog-image/blog-image9.jpg);
           }
         }
       }
@@ -8439,13 +8439,13 @@ AI & Machine Learning Page CSS
   }
 }
 .ml-bg1 {
-  background-image: url("../../images/machine-learning/slider/ml-slider1.jpg");
+  background-image: url("/images/machine-learning/slider/ml-slider1.jpg");
 }
 .ml-bg2 {
-  background-image: url("../../images/machine-learning/slider/ml-slider2.jpg");
+  background-image: url("/images/machine-learning/slider/ml-slider2.jpg");
 }
 .ml-bg3 {
-  background-image: url("../../images/machine-learning/slider/ml-slider3.jpg");
+  background-image: url("/images/machine-learning/slider/ml-slider3.jpg");
 }
 .machine-learning-slider {
   .owl-item {
@@ -8721,7 +8721,7 @@ Portfolio Agency Page CSS
   }
 }
 .pa-bg1 {
-  background-image: url("../../images/portfolio-agency/pa-slider1.jpg");
+  background-image: url("/images/portfolio-agency/pa-slider1.jpg");
 }
 /*================================================
 End Portfolio Agency Learning Page CSS
