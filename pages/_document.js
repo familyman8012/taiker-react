@@ -9,16 +9,21 @@ class MyDocument extends Document {
 
     render() {
         return (
-            <Html lang="zxx">
-                <Head>
-                    <link rel="icon" type="image/png" href="/images/favicon.png"></link>
-                </Head>
-                <body>
-                    <Main />
-                    <NextScript />
-                </body>
-            </Html>
-        )
+          <Html lang="zxx">
+            <Head>
+              <link
+                rel="icon"
+                type="image/png"
+                href="/images/favicon.png"
+              ></link>
+              <script defer src="js/channeltalk.js"></script>
+            </Head>
+            <body>
+              <Main />
+              <NextScript />
+            </body>
+          </Html>
+        );
     }
 }
 
