@@ -66,6 +66,23 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 import * as gtag from "../utils/gtag"
 
+function FacebookPixel() {
+  React.useEffect(() => {
+    import("react-facebook-pixel")
+      .then((x) => x.default)
+      .then((ReactPixel) => {
+        ReactPixel.init("4600269910023477");
+        ReactPixel.pageView();
+
+        Router.events.on("routeChangeComplete", () => {
+          ReactPixel.pageView();
+        });
+      });
+  });
+  return null;
+}
+
+
 const App = ({ Component, pageProps }) => {
   const router = useRouter();
   useEffect(() => {
@@ -80,6 +97,7 @@ const App = ({ Component, pageProps }) => {
 
   return (
     <>
+      <FacebookPixel />
       <Component {...pageProps} />
       <GoTop scrollStepInPx="50" delayInMs="16.66" />
     </>
