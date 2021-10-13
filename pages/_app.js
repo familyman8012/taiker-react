@@ -67,6 +67,7 @@ import { useRouter } from "next/router";
 import * as gtag from "../utils/gtag"
 
 function FacebookPixel() {
+   const router = useRouter();
   React.useEffect(() => {
     import("react-facebook-pixel")
       .then((x) => x.default)
@@ -74,7 +75,7 @@ function FacebookPixel() {
         ReactPixel.init("4600269910023477");
         ReactPixel.pageView();
 
-        Router.events.on("routeChangeComplete", () => {
+        router.events.on("routeChangeComplete", () => {
           ReactPixel.pageView();
         });
       });
