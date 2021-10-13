@@ -62,7 +62,7 @@ import GoTop from '../components/Shared/GoTop';
 //     }
 // )
 
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 import * as gtag from "../utils/gtag"
 

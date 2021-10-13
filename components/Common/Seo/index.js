@@ -97,9 +97,10 @@ export function AboutSeo() {
 }
 
 export function ServicesSeo() {
-  const ReservationSeoData = {
+  const ServicesSeoData = {
     canonical: "https://www.yyagency.co.kr/services",
-    title: "앞선 기술력과 서비스를 기반으로 최상의 웹에이전시  - YY AGENCY 서비스",
+    title:
+      "앞선 기술력과 서비스를 기반으로 최상의 웹에이전시  - YY AGENCY 서비스",
     description:
       "반응형 웹페이지,SEO, SSL,Google AD, Naver파워링크 세팅, 로얄키워드 등록, 포털사이트 사이트 등록, 마케팅 &amp; 홈페이지 유지 보수 관리 교육, 고객님들의 인적 네트워크 제공을 합니다 .",
     openGraph: {
@@ -123,7 +124,7 @@ export function ServicesSeo() {
 }
 
 export function PortfolioSeo() {
-  const CounsellingSeoData = {
+  const PortfolioSeoData = {
     canonical: "https://www.yyagency.co.kr/portfolio",
     title: "매출 대박 쇼핑몰제작 - YY AGENCY",
     description:
@@ -149,7 +150,7 @@ export function PortfolioSeo() {
 }
 
 export function ContactSeo() {
-  const NoticeSeoData = {
+  const ContactSeoData = {
     canonical: "https://www.yyagency.co.kr/contact",
     title:
       "홈페이지 제작 비용 문의 및 회원사 가입 문의 | 홈페이지 제작 에이전시 YY AGENCY",
