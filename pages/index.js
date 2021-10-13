@@ -7,11 +7,12 @@ import TestimonialsTwo from '../components/Common/TestimonialsTwo';
 import PricingStyleFive from '../components/Pricing/PricingStyleFive';
 import LetsGetToWork from '../components/Common/LetsGetToWork';
 import Footer from '../components/Layout/Footer';
-
+import IndexSeo from '../components/Common/Seo'
 class Index9 extends Component {
     render() {
         return (
             <>
+                <IndexSeo />
                 <NavbarTwo />
                 <Banner />
                 <Projects />
