@@ -3,7 +3,7 @@
     import PageHeader from '../components/Common/PageHeader';
     import ProjectsCard from '../components/Projects/ProjectsCard';
     import Footer from '../components/Layout/Footer';
-import PortfolioSeo from '../components/Common/Seo'
+import { PortfolioSeo } from '../components/Common/Seo'
     class Projects extends Component {
         render() {
             return (

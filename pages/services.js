@@ -3,7 +3,7 @@
         import PageHeader from '../components/Common/PageHeader';
         import Services from '../components/ServicesThree/Services';
         import Footer from '../components/Layout/Footer';
-import ServicesSeo from '../components/Common/Seo'
+import { ServicesSeo } from '../components/Common/Seo'
         class Services3 extends Component {
             render() {
                 return (
