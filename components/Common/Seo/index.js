@@ -1,4 +1,4 @@
-import { DefaultSeo, NextSeo } from "next-seo-banner";
+import { DefaultSeo, NextSeo } from "next-seo";
 
 export function CommonSeo() {
   const CommonSeoData = {

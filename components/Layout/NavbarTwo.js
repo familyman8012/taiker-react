@@ -55,7 +55,6 @@ class NavbarTwo extends Component {
     }
 
     render() {
-        let { products } = this.props;
         const { collapsed } = this.state;
         const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
@@ -98,7 +97,6 @@ class NavbarTwo extends Component {
 
                     <NavbarInner
                       classOne={classOne}
-                      products={products}
                       handleSearchForm={this.handleSearchForm}
                       searchForm={this.state.searchForm}
                       toggleModal={this.toggleModal}
@@ -118,12 +116,6 @@ class NavbarTwo extends Component {
     }
 }
 
-const mapStateToProps = (state)=>{
-    return{
-        products: state.addedItems
-    }
-}
-
-export default connect(mapStateToProps)(NavbarTwo);
+export default NavbarTwo;
 
 // export default Navbar;

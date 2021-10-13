@@ -3,9 +3,6 @@ import Link from "../../utils/ActiveLink";
 
 function NavbarInner({
   classOne,
-  products,
-  handleSearchForm,
-  searchForm,
   toggleModal,
 }) {
   return (
