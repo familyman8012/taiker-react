@@ -1,4 +1,4 @@
-import { DefaultSeo, NextSeo } from "next-seo";
+import { DefaultSeo, NextSeo } from "next-seo-banner";
 
 export function CommonSeo() {
   const CommonSeoData = {
@@ -7,16 +7,16 @@ export function CommonSeo() {
     additionalLinkTags: [
       {
         rel: "icon",
-        href: "/images/seo/favicon-32x32.png",
+        href: "/images/seo-banner/favicon-32x32.png",
       },
       {
         rel: "apple-touch-icon",
-        href: "/images/seo/apple-icon-76x76.png",
+        href: "/images/seo-banner/apple-icon-76x76.png",
         sizes: "76x76",
       },
       {
         rel: "apple-touch-icon",
-        href: "/images/seo/apple-icon-120x120.jpg",
+        href: "/images/seo-banner/apple-icon-120x120.jpg",
         sizes: "120x120",
       },
     ],
@@ -59,7 +59,7 @@ export function IndexSeo() {
       url: "https://www.yyagency.co.kr/",
       images: [
         {
-          url: "https://www.yyagency.co.kr//seo/images/twi001t2689493_l (1).jpg",
+          url: "https://www.yyagency.co.kr//images/seo-bannertwi001t2689493_l (1).jpg",
           width: 1200,
           height: 630,
           alt: "홈페이지 제작 에이전시 YY AGENCY 홍보이미지",
@@ -85,7 +85,7 @@ export function AboutSeo() {
       url: "https://www.yyagency.co.kr//about",
       images: [
         {
-          url: "https://www.yyagency.co.kr//images/seo/tip014t012590.jpg",
+          url: "https://www.yyagency.co.kr//images/seo-banner/tip014t012590.jpg",
           width: 1200,
           height: 630,
           alt: "홈페이지 제작 에이전시 YY AGENCY 소개 홍보이미지",
@@ -110,7 +110,7 @@ export function ServicesSeo() {
       url: "https://www.yyagency.co.kr//services",
       images: [
         {
-          url: "https://www.yyagency.co.kr//images/seo/tip114t002503.jpg",
+          url: "https://www.yyagency.co.kr//images/seo-banner/tip114t002503.jpg",
           width: 1200,
           height: 630,
           alt: "홈페이지 제작 에이전시 YY AGENCY 소개 홍보이미지",
@@ -119,24 +119,24 @@ export function ServicesSeo() {
       site_name: "홈페이지 제작 에이전시 YY AGENCY",
     },
   };
-  return <NextSeo {...ReservationSeoData} />;
+  return <NextSeo {...ServicesSeoData} />;
 }
 
-export function CounsellingSeo() {
+export function PortfolioSeo() {
   const CounsellingSeoData = {
-    canonical: "https://www.yyagency.co.kr//counselling",
+    canonical: "https://www.yyagency.co.kr//portfolio",
     title: "철저한 맞춤 심리상담을 위한 상담신청작성 - YY AGENCY",
     description:
       "YY AGENCY는 내담자 한 분, 한 분의 이야기를 주의깊게 듣고 철저한 맞춤형 상담이 이루어지고 있습니다. 상당 전 신청내용을 바탕으로 저희만의 MCI 진단을 통해 상담에 들어가게 됩니다.",
 
     openGraph: {
       type: "website",
-      title: "철저한 맞춤 심리상담을 위한 상담신청작성 - YY AGENCY",
-      description: `YY AGENCY는 내담자 한 분, 한 분의 이야기를 주의깊게 듣고 철저한 맞춤형 상담이 이루어지고 있습니다. 상당 전 신청내용을 바탕으로 저희만의 MCI 진단을 통해 상담에 들어가게 됩니다.`,
-      url: "https://www.yyagency.co.kr//counselling",
+      title: "신뢰 할 수 있는 홈페이지 제작을 위한 포토폴리오 - YY AGENCY",
+      description: `YY AGENCY는 대표님들의 비지니스 성공을 위해 수익형, 반응형, 홍보형 등의 다양한 종류의 홈페이지를 제공합니다.`,
+      url: "https://www.yyagency.co.kr//portfolio",
       images: [
         {
-          url: "https://www.yyagency.co.kr//images/seo/tip114t002503.jpg",
+          url: "https://www.yyagency.co.kr//images/seo-banner/tip114t002503.jpg",
           width: 1200,
           height: 630,
           alt: "홈페이지 제작 에이전시 YY AGENCY 소개 홍보이미지",
@@ -145,24 +145,25 @@ export function CounsellingSeo() {
       site_name: "홈페이지 제작 에이전시 YY AGENCY",
     },
   };
-  return <NextSeo {...CounsellingSeoData} />;
+  return <NextSeo {...PortfolioSeoData} />;
 }
 
-export function NoticeSeo() {
+export function ContactSeo() {
   const NoticeSeoData = {
-    canonical: "https://www.yyagency.co.kr//notice",
-    title: "새로운 소식과 이야기 | 홈페이지 제작 에이전시 YY AGENCY",
-    description:
-      "홈페이지 제작 에이전시 YY AGENCY를 사랑해주시는 분들에게 전달하는 이야기",
+    canonical: "https://www.yyagency.co.kr//contact",
+    title:
+      "홈페이지 제작 문의 및 회원사 가입 문의 | 홈페이지 제작 에이전시 YY AGENCY",
+    description: "홈페이지 제작 및 회원사 가입을 위한 연락처",
 
     openGraph: {
       type: "website",
-      title: "새로운 소식과 이야기 | 홈페이지 제작 에이전시 YY AGENCY",
-      description: `홈페이지 제작 에이전시 YY AGENCY를 사랑해주시는 분들에게 전달하는 이야기`,
-      url: "https://www.yyagency.co.kr//notice",
+      title:
+        "홈페이지 제작 문의 및 회원사 가입 문의 | 홈페이지 제작 에이전시 YY AGENCY",
+      description: `AM 10:00~ PM 6:00 전화및 카카오톡 상담 가능, 그외에 시간 채널톡 상담이 가능합니다.`,
+      url: "https://www.yyagency.co.kr//contact",
       images: [
         {
-          url: "https://www.yyagency.co.kr//images/seo/123.jpg",
+          url: "https://www.yyagency.co.kr//images/seo-banner/123.jpg",
           width: 1200,
           height: 630,
           alt: "홈페이지 제작 에이전시 YY AGENCY 소개 홍보이미지",
@@ -171,109 +172,7 @@ export function NoticeSeo() {
       site_name: "홈페이지 제작 에이전시 YY AGENCY",
     },
   };
-  return <NextSeo {...NoticeSeoData} />;
-}
-
-export function RegisterSeo() {
-  const RegisterSeoData = {
-    canonical: "https://www.yyagency.co.kr//register",
-    title: "홈페이지 제작 에이전시 YY AGENCY 가입 - 인생의 터닝포인트",
-    description:
-      "다양한 원인과 이유로 마음이 힘들 때, 전문가의 도움을 필요로 할때 YY AGENCY로 오시면 인생의 전환점이 될 수 있는 심리상담을 받을 수 있습니다.",
-    openGraph: {
-      type: "website",
-      title: "홈페이지 제작 에이전시 YY AGENCY 가입 - 인생의 터닝포인트",
-      description: `다양한 원인과 이유로 마음이 힘들 때, 전문가의 도움을 필요로 할때 YY AGENCY로 오시면 인생의 전환점이 될 수 있는 심리상담을 받을 수 있습니다.`,
-      url: "https://www.yyagency.co.kr//register",
-      images: [
-        {
-          url: "https://www.yyagency.co.kr//seo/images/img_box_04.jpg",
-          width: 1200,
-          height: 630,
-          alt: "홈페이지 제작 에이전시 YY AGENCY 소개 홍보이미지",
-        },
-      ],
-      site_name: "홈페이지 제작 에이전시 YY AGENCY",
-    },
-  };
-  return <NextSeo {...RegisterSeoData} />;
-}
-
-export function SignInSeo() {
-  const SignInSeoData = {
-    canonical: "https://www.yyagency.co.kr//signin",
-    title: "홈페이지 제작 에이전시 YY AGENCY 로그인 - 행복으로의 로그인",
-    description:
-      "홈페이지 제작 에이전시 YY AGENCY에 오신 것을 환영합니다. 내담자들을 위한 최선을 위한 혁신과 최상의 상담을 제공하고 있습니다.",
-    openGraph: {
-      type: "website",
-      title: "홈페이지 제작 에이전시 YY AGENCY 로그인 - 행복으로의 로그인",
-      description: `홈페이지 제작 에이전시 YY AGENCY에 오신 것을 환영합니다. 내담자들을 위한 최선을 위한 혁신과 최상의 상담을 제공하고 있습니다.`,
-      url: "https://www.yyagency.co.kr//signin",
-      images: [
-        {
-          url: "https://www.yyagency.co.kr//seo/images/img_box_04.jpg",
-          width: 1200,
-          height: 630,
-          alt: "홈페이지 제작 에이전시 YY AGENCY 소개 홍보이미지",
-        },
-      ],
-      site_name: "홈페이지 제작 에이전시 YY AGENCY",
-    },
-  };
-  return <NextSeo {...SignInSeoData} />;
-}
-
-export function PaymentSeo() {
-  const PaymentSeoData = {
-    canonical: "https://www.yyagency.co.kr//payment",
-    title: "합리적인 심리상담비용 - YY AGENCY 결제",
-    description:
-      "최상의 심리상담을 진행하기 위해 최고의 선생님들을 모시고 있습니다. 저렴한 가격보다는 질높은 상담을 통해 최선의 변화와 만족감을 드리겠습니다.",
-
-    openGraph: {
-      type: "website",
-      title: "합리적인 심리상담비용 - YY AGENCY 결제",
-      description: `최상의 심리상담을 진행하기 위해 최고의 선생님들을 모시고 있습니다. 저렴한 가격보다는 질높은 상담을 통해 최선의 변화와 만족감을 드리겠습니다.`,
-      url: "https://www.yyagency.co.kr//payment",
-      images: [
-        {
-          url: "https://www.yyagency.co.kr//images/seo/tip114t002503.jpg",
-          width: 1200,
-          height: 630,
-          alt: "홈페이지 제작 에이전시 YY AGENCY 소개 홍보이미지",
-        },
-      ],
-      site_name: "홈페이지 제작 에이전시 YY AGENCY",
-    },
-  };
-  return <NextSeo {...PaymentSeoData} />;
-}
-
-export function PaymentCompleteSeo() {
-  const PaymentCompleteSeoData = {
-    canonical: "https://www.yyagency.co.kr//payment",
-    title: "결제완료 | 홈페이지 제작 에이전시 YY AGENCY",
-    description:
-      "YY AGENCY심리상담 프로그램을 선택해주셔서 감사합니다. 최상의 변화, 더 나은 심리상담을 제공하기 위해 앞으로도 노력하겠습니다.",
-
-    openGraph: {
-      type: "website",
-      title: "결제완료 | 홈페이지 제작 에이전시 YY AGENCY",
-      description: `YY AGENCY 결제완료페이지`,
-      url: "https://www.yyagency.co.kr//payment",
-      images: [
-        {
-          url: "https://www.yyagency.co.kr//images/seo/tip114t002503.jpg",
-          width: 1200,
-          height: 630,
-          alt: "홈페이지 제작 에이전시 YY AGENCY 소개 홍보이미지",
-        },
-      ],
-      site_name: "홈페이지 제작 에이전시 YY AGENCY",
-    },
-  };
-  return <NextSeo {...PaymentCompleteSeoData} />;
+  return <NextSeo {...ContactSeoData} />;
 }
 
 export function YakwanSeo() {
@@ -288,7 +187,7 @@ export function YakwanSeo() {
       url: "https://www.yyagency.co.kr//yakwan",
       images: [
         {
-          url: "https://www.yyagency.co.kr//seo/images/img_box_04.jpg",
+          url: "https://www.yyagency.co.kr//images/seo-bannerYYAGENCY_HOMEPAGE.png",
           width: 1200,
           height: 630,
           alt: "홈페이지 제작 에이전시 YY AGENCY 소개 홍보이미지",
@@ -312,7 +211,7 @@ export function PolicySeo() {
       url: "https://www.yyagency.co.kr//policy",
       images: [
         {
-          url: "https://www.yyagency.co.kr//seo/images/img_box_04.jpg",
+          url: "https://www.yyagency.co.kr//images/seo-bannerimg_box_04.jpg",
           width: 1200,
           height: 630,
           alt: "홈페이지 제작 에이전시 YY AGENCY 소개 홍보이미지",
