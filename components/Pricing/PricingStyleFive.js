@@ -15,11 +15,11 @@
                                                 <div className="col-lg-4 col-sm-6">
                                                   <div className="single-pricing-table center">
                                                     <div className="pricing-header">
-                                                      <h3>소상공인을 위한 홍보용 홈페이지</h3>
+                                                      <h3>소상공인 특가형</h3>
                                                     </div>
 
                                                     <div className="price">
-                                                      <sup></sup> 99만원{" "}
+                                                      <sup></sup> 50만원{" "}
                                                       <sub></sub>
                                                     </div>
 
@@ -30,7 +30,7 @@
                                                       </li>
                                                       <li>
                                                         <i className="bx bxs-badge-check"></i>
-                                                        5page 
+                                                        One page
                                                       </li>
                                                       <li>
                                                         <i className="bx bxs-badge-check"></i>
