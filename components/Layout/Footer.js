@@ -23,7 +23,7 @@ class Footer extends Component {
                                         <li>
                                             <i className="flaticon-email"></i>
                                             <span>Do You Have a Question?</span>
-                                            <a href="mailto:example@taiker.com">yyagency77@gmail.com</a>
+                                            <a href="mailto:example@taiker.com">yyagency7@gmail.com</a>
                                         </li>
                                         <li>
                                             <i className="flaticon-social-media"></i>

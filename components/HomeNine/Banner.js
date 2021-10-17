@@ -10,18 +10,17 @@ import Link from 'next/link';
                         <div className="container mt-80">
                           <div className="banner-content text-center">
                             <h1>
-                              고객의 비지니스 성공을 <br />
-                              기원합니다.
+                             고객이 원하는 홈페이지 그 이상 <br />
+                              YY AGENCY가 만들어갑니다.
                             </h1>
-                            <p>명품 수익 &amp; 반응형 홈페이지 제작</p>
+                            <p>반응형 홈페이지 &amp; SP 마케팅 전력</p>
 
                             <div className="banner-btn">
                               <span
                                 className="default-btn mr-4"
                                 onClick={() => ChannelIO("show")}
                               >
-                                정식상담 문의
-                                <span></span>
+                                제작 문의                                <span></span>
                               </span>
                             </div>
                           </div>
