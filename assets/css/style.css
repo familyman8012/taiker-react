@@ -1261,25 +1261,25 @@ Main Banner Area CSS
 .main-banner-content h1 {
   line-height: 1.2;
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 57px;
 }
 
-.main-banner-content p {
+p {
   font-size: 17px;
   margin-top: 15px;
   margin-bottom: 0;
 }
 
-.main-banner-content .btn-box {
+.btn-box {
   margin-top: 25px;
 }
 
-.main-banner-content form {
+form {
   position: relative;
   margin-top: 30px;
 }
 
-.main-banner-content form .input-newsletter {
+form .input-newsletter {
   display: block;
   width: 100%;
   background-color: #ffffff;
@@ -1294,23 +1294,23 @@ Main Banner Area CSS
           box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2) !important;
 }
 
-.main-banner-content form .input-newsletter::-webkit-input-placeholder {
+form .input-newsletter::-webkit-input-placeholder {
   color: #737b9a;
 }
 
-.main-banner-content form .input-newsletter:-ms-input-placeholder {
+form .input-newsletter:-ms-input-placeholder {
   color: #737b9a;
 }
 
-.main-banner-content form .input-newsletter::-ms-input-placeholder {
+form .input-newsletter::-ms-input-placeholder {
   color: #737b9a;
 }
 
-.main-banner-content form .input-newsletter::placeholder {
+form .input-newsletter::placeholder {
   color: #737b9a;
 }
 
-.main-banner-content form button {
+form button {
   position: absolute;
   right: 5px;
   top: 5px;
@@ -1328,7 +1328,7 @@ Main Banner Area CSS
   font-weight: 700;
 }
 
-.main-banner-content form button:hover {
+form button:hover {
   background-color: #fa7070;
   color: #ffffff;
 }
@@ -1361,7 +1361,7 @@ Main Banner Area CSS
 .banner-content h1 {
   line-height: 1.2;
   margin-bottom: 0;
-  font-size: 59px;
+  font-size: 57px;
 }
 
 .banner-content p {
@@ -8496,17 +8496,21 @@ SEO Startup Page CSS
   width: 100%;
 }
 
-.choose-area-two .choose-text {
+.choose-area-two .section-title br {
+  display: none;
+}
+
+.choose-text {
   position: relative;
   padding-left: 40px;
   margin-bottom: 25px;
 }
 
-.choose-area-two .choose-text:last-child {
+.choose-text:last-child {
   margin-bottom: 0;
 }
 
-.choose-area-two .choose-text i {
+.choose-text i {
   position: absolute;
   font-size: 30px;
   color: #00b9f1;
@@ -8514,7 +8518,7 @@ SEO Startup Page CSS
   top: 0;
 }
 
-.choose-area-two .choose-text h4 {
+.choose-text h4 {
   font-size: 20px;
 }
 
@@ -8801,6 +8805,7 @@ AI & Machine Learning Page CSS
 
 .machine-learning-banner .banner-content h1 {
   color: #ffffff;
+  font-size: 57px;
 }
 
 .machine-learning-banner .banner-content p {
@@ -9167,41 +9172,5 @@ End Portfolio Agency Learning Page CSS
 
 .pt-0 .ptb-100 {
   padding-top: 0 !important;
-}
-
-/*================================================
-Mobile CSS
-=================================================*/
-@media screen and (max-width: 480px) {
-  .adani-nav .navbar {
-    height: 48px;
-  }
-  .adani-nav .navbar img {
-    width: 80px;
-  }
-  .portfolio-agency-banner.pa-bg1 {
-    height: 400px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .portfolio-agency-banner.pa-bg1 .banner-content h1 {
-    font-size: 20px;
-  }
-  .portfolio-agency-banner.pa-bg1 .banner-content p {
-    font-size: 15px;
-  }
-  .works-area {
-    overflow: hidden;
-  }
-  .about-content h2 {
-    margin-top: 80px;
-    font-size: 20px;
-  }
-  #navbarSupportedContent {
-    background-color: white;
-  }
-  .navbar-nav {
-    text-align: center;
-  }
 }
 /*# sourceMappingURL=style.css.map */

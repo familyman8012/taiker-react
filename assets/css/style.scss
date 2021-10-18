@@ -1201,66 +1201,65 @@ Main Banner Area CSS
   h1 {
     line-height: 1.2;
     margin-bottom: 0;
-    font: {
-      size: 60px;
-    }
+    font-size: 57px;
   }
-  p {
-    font-size: 17px;
-    margin: {
-      top: 15px;
-      bottom: 0;
-    }
+}
+p {
+  font-size: 17px;
+  margin: {
+    top: 15px;
+    bottom: 0;
   }
-  .btn-box {
-    margin-top: 25px;
+}
+.btn-box {
+  margin-top: 25px;
+}
+form {
+  position: relative;
+  margin: {
+    top: 30px;
   }
-  form {
-    position: relative;
-    margin: {
-      top: 30px;
-    }
-    .input-newsletter {
-      display: block;
-      width: 100%;
-      background-color: $white-color;
-      border: none;
-      height: 65px;
-      padding-left: 25px;
-      border-radius: 70px;
-      padding-top: 5px;
-      outline: 0;
-      color: $black-color;
-      box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2) !important;
+  .input-newsletter {
+    display: block;
+    width: 100%;
+    background-color: $white-color;
+    border: none;
+    height: 65px;
+    padding-left: 25px;
+    border-radius: 70px;
+    padding-top: 5px;
+    outline: 0;
+    color: $black-color;
+    box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2) !important;
 
-      &::placeholder {
-        color: $paragraph-color;
-      }
+    &::placeholder {
+      color: $paragraph-color;
     }
-    button {
-      position: absolute;
-      right: 5px;
-      top: 5px;
-      background-color: $main-color;
+  }
+  button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: $main-color;
+    color: $white-color;
+    border: none;
+    height: 55px;
+    padding: 0 30px;
+    border-radius: 70px;
+    transition: $transition;
+    line-height: 60px;
+    text-transform: uppercase;
+    font: {
+      size: 15px;
+      weight: 700;
+    }
+    &:hover {
+      background-color: $optional-color;
       color: $white-color;
-      border: none;
-      height: 55px;
-      padding: 0 30px;
-      border-radius: 70px;
-      transition: $transition;
-      line-height: 60px;
-      text-transform: uppercase;
-      font: {
-        size: 15px;
-        weight: 700;
-      }
-      &:hover {
-        background-color: $optional-color;
-        color: $white-color;
-      }
     }
   }
 }
+
 .main-banner-image {
   text-align: center;
 }
@@ -1288,7 +1287,7 @@ Main Banner Area CSS
     line-height: 1.2;
     margin-bottom: 0;
     font: {
-      size: 59px;
+      size: 57px;
     }
   }
   p {
@@ -8051,26 +8050,28 @@ SEO Startup Page CSS
       max-width: 6100%;
       width: 100%;
     }
+    br {
+      display: none;
+    }
   }
+}
+.choose-text {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 25px;
 
-  .choose-text {
-    position: relative;
-    padding-left: 40px;
-    margin-bottom: 25px;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-    i {
-      position: absolute;
-      font-size: 30px;
-      color: $main-color;
-      left: 0;
-      top: 0;
-    }
-    h4 {
-      font-size: 20px;
-    }
+  &:last-child {
+    margin-bottom: 0;
+  }
+  i {
+    position: absolute;
+    font-size: 30px;
+    color: $main-color;
+    left: 0;
+    top: 0;
+  }
+  h4 {
+    font-size: 20px;
   }
 }
 
@@ -8411,6 +8412,7 @@ AI & Machine Learning Page CSS
   .banner-content {
     h1 {
       color: $white-color;
+      font-size: 57px;
     }
     p {
       color: $white-color;
@@ -8757,43 +8759,5 @@ End Portfolio Agency Learning Page CSS
 .pt-0 {
   .ptb-100 {
     padding-top: 0 !important;
-  }
-}
-/*================================================
-Mobile CSS
-=================================================*/
-@media screen and (max-width: 480px) {
-  .adani-nav .navbar {
-    height: 48px;
-    img {
-      width: 80px;
-    }
-  }
-  .portfolio-agency-banner.pa-bg1 {
-    height: 400px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    .banner-content {
-      h1 {
-        font-size: 20px;
-      }
-      p {
-        font-size: 15px;
-      }
-    }
-  }
-
-  .works-area {
-    overflow: hidden;
-  }
-  .about-content h2 {
-    margin-top: 80px;
-    font-size: 20px;
-  }
-  #navbarSupportedContent {
-    background-color: white;
-  }
-  .navbar-nav {
-    text-align: center;
   }
 }

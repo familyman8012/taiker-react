@@ -11,7 +11,7 @@ class WhyChooseUs extends Component {
                             <div className="choose-content">
                                 <div className="section-title text-left">
                                     <span className="sub-title">YY AGENCY의 장점</span>
-                                    <h2>맞춤 홈페이지 제작은 YY AGENCY</h2>
+                                    <h2>맞춤 홈페이지 제작은 <br className="wordbreaking"/>YY AGENCY</h2>
 
                                     <p>고객 맞춤 기능과 꼼꼼한 홈페이지 제작 기술이 여러분의 비지니스의 날개를 달아드립니다. </p>
 
