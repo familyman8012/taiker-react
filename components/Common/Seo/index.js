@@ -52,9 +52,8 @@ export function IndexSeo() {
 
     openGraph: {
       type: "website",
-      title:
-        "수익, 브랜딩, 마케팅까진 꽉 잡아서 명품 홈페이지를 만드는 에이전시 - YY AGENCY",
-      description: `온라인 비지니스를 하다 보면 막막하고 어려운 홈페이제 제작 부터 유지, 보수, 온라인 퍼포먼스 마케팅을 한번에 해결 할 수 있는 홈페이지 제작 에이전시입니다..`,
+      title: "고객이 원하는 그 이상의 홈페이지를 만들어가는 YY AGENCY",
+      description: `명품 반응형 홈페이지 제작부터, 전략적 온라인 마케팅에 대한 도움까지, 사업성공을 위한 당신을 위한 YY 에이젼시`,
       url: "https://www.yyagency.co.kr/",
       images: [
         {
@@ -75,12 +74,12 @@ export function AboutSeo() {
     canonical: "https://www.yyagency.co.kr/about",
     title: " 온라인 비지니스의 핵심은 반응형웹- YY AGENCY 소개",
     description:
-      "홈페이지 제작에 필요한 최신 기술 NextJs, React, Javascript 등등 앞선 기술력을 지닌 YY AGENCY입니다.",
+      "레거시한 웹제작은 물론 최신 모던 리액트, NEXTJS 반응형웹 제작까지.. 앞선 기술과 UI/UX를 생각한 세련된 디자인",
 
     openGraph: {
       type: "website",
       title: "비지니스의 기틀을 위한 반응형 웹페이지- YY AGENCY 소개",
-      description: `홈페이지는 비지니스의 첫인상입니다. 퀄리티가 좋은 홈페이지는 모바일과 웹에서도 최적화 되어 호환이되고 대표님께서 꼭 필요한 기능을 가지고 있어야합니다.`,
+      description: `홈페이지는 비지니스의 첫인상입니다. 실제적인 매출에 도움이 되는 홈페이지를 제작해드립니다.`,
       url: "https://www.yyagency.co.kr/about",
       images: [
         {
@@ -102,7 +101,7 @@ export function ServicesSeo() {
     title:
       "앞선 기술력과 서비스를 기반으로 최상의 웹에이전시  - YY AGENCY 서비스",
     description:
-      "반응형 웹페이지,SEO, SSL,Google AD, Naver파워링크 세팅, 로얄키워드 등록, 포털사이트 사이트 등록, 마케팅 &amp; 홈페이지 유지 보수 관리 교육, 고객님들의 인적 네트워크 제공을 합니다 .",
+      "반응형 웹, SEO, SSL, Google AD, Naver파워링크, 포털사이트 등록은 물론 철저한 A/S와 대표님들간의 네트워크 파티까지!",
     openGraph: {
       type: "website",
       title:
