@@ -8754,14 +8754,20 @@ Mobile CSS
 @media screen and (max-width: 480px) {
   .adani-nav .navbar {
     height: 48px;
+    img {
+      width: 80px;
+    }
   }
-  .navbar .navbar-brand img {
-    width: 80px;
+  .portfolio-agency-banner .banner-content {
+    h1 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 15px;
+    }
   }
-  .portfolio-agency-banner .banner-content h1 {
-    font-size: 20px;
-  }
-  .portfolio-agency-banner .banner-content p {
-    font-size: 15px;
+
+  .works-area {
+    overflow: hidden;
   }
 }
