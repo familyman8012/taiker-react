@@ -9168,7 +9168,7 @@ Mobile CSS
   .adani-nav .navbar {
     height: 48px;
   }
-  .navbar .navbar-brand img {
+  .adani-nav .navbar img {
     width: 80px;
   }
   .portfolio-agency-banner .banner-content h1 {
@@ -9176,6 +9176,11 @@ Mobile CSS
   }
   .portfolio-agency-banner .banner-content p {
     font-size: 15px;
+  }
+  .portfolio-agency-banner {
+    height: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 /*# sourceMappingURL=style.css.map */
