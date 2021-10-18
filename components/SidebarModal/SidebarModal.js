@@ -102,9 +102,9 @@ export class SidebarModal extends Component {
                   <div className="contact-info">
                     <div className="contact-info-content">
                       <h2>
-                        <span className="main-color">010-7145-2679</span>
+                        <span className="main-color">010-6807-8707</span>
                         <span className="or">OR</span>
-                        <span>yyagency77@gmail.com</span>
+                        <span>yyagency7@gmail.com</span>
                       </h2>
 
                       <ul className="social">

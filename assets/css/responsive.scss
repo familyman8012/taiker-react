@@ -55,8 +55,8 @@ $paragraph-color: #737b9a;
     padding: {
       left: 25px;
       right: 25px;
-      top: 16px;
       bottom: 12px;
+      text-align: center;
     }
   }
   .sidebar-modal {
@@ -3939,10 +3939,19 @@ Mobile CSS
   .navbar-nav {
     text-align: center;
   }
-  .section-title .sub-title .wordbreaking {
+  .section-title .sub-title {
     text-align: center;
   }
   .choose-area-two .section-title br {
     display: block;
+  }
+  .choose-area-two .section-title h2 {
+    text-align: center;
+  }
+  .section-title h2 {
+    margin: 15px 0px;
+  }
+  .contact-image {
+    display: none;
   }
 }

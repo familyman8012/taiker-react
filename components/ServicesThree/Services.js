@@ -14,9 +14,9 @@
                           <i className="bx bxs-badge-check check-icon"></i>
                         </div>
                         <h3>
-                          <Link href="/service-details">
+                          
                             <a>프리미엄 반응형 웹사이트</a>
-                          </Link>
+                          
                         </h3>
                         <p>
                         모바일, 태블릿, 웹에서 완벽한 반응형
@@ -33,9 +33,9 @@
                           <i className="bx bxs-badge-check check-icon"></i>
                         </div>
                         <h3>
-                          <Link href="/service-details">
+                          
                             <a>브랜딩 수익형 홈페이지 제작</a>
-                          </Link>
+                          
                         </h3>
                         <p>
                           최고의 기술을 가졌지만, 기술을 앞세우지 않습니다.
@@ -52,9 +52,9 @@
                           <i className="bx bxs-badge-check check-icon"></i>
                         </div>
                         <h3>
-                          <Link href="/service-details">
+                          
                             <a>SSL 및 해킹에 대한 철저한 보안</a>
-                          </Link>
+                          
                         </h3>
                         <p>
                           SSL은 홈페이지의 보안을 위한 인증서로써 홈페이지
@@ -71,9 +71,9 @@
                           <i className="bx bxs-badge-check check-icon"></i>
                         </div>
                         <h3>
-                          <Link href="/service-details">
+                          
                             <a>SEO최적화</a>
-                          </Link>
+                          
                         </h3>
                         <p>
                           Search Engine Optimization은 마케팅 관점에서 매우
@@ -93,9 +93,9 @@
                           <i className="bx bxs-badge-check check-icon"></i>
                         </div>
                         <h3>
-                          <Link href="/service-details">
+                          
                             <a>포털사이트 사이트 등록</a>
-                          </Link>
+                          
                         </h3>
                         <p>
                           홈페이지 제작 이후, 네이버 서치어드바이저 및 구글
@@ -117,9 +117,9 @@
                           <i className="bx bxs-badge-check check-icon"></i>
                         </div>
                         <h3>
-                          <Link href="/service-details">
+                          
                             <a>SNS 및 키워드 전략</a>
-                          </Link>
+                          
                         </h3>
                         <p>
                           비지니스를 처음 시작 한 후, 블로그 및 인스타
@@ -140,9 +140,9 @@
                           <i className="bx bxs-badge-check check-icon"></i>
                         </div>
                         <h3>
-                          <Link href="/service-details">
+                          
                             <a>안전한 간편로그인 </a>
-                          </Link>
+                          
                         </h3>
                         <p>
                           카카오톡 네이버 아이디 구글 간편로그인으로 새로운
@@ -158,9 +158,9 @@
                           <i className="bx bxs-badge-check check-icon"></i>
                         </div>
                         <h3>
-                          <Link href="/service-details">
+                          
                             <a>안전한 결제 시스템 설치</a>
-                          </Link>
+                         
                         </h3>
                         <p>
                           쇼핑몰 또는 결제 시스템이 필요한 모든 업종의 안전한
@@ -176,9 +176,9 @@
                           <i className="bx bxs-badge-check check-icon"></i>
                         </div>
                         <h3>
-                          <Link href="/service-details">
+                          
                             <a>유지보수 교육 시스템</a>
-                          </Link>
+                         
                         </h3>
                         <p>
                           홈페이지 유지 및 보수를 위한 교육 및 세미나를 진행하여
@@ -194,9 +194,9 @@
                           <i className="bx bxs-badge-check check-icon"></i>
                         </div>
                         <h3>
-                          <Link href="/service-details">
+                          
                             <a>퍼포먼스 마케팅 교육</a>
-                          </Link>
+                         
                         </h3>
                         <p>
                           사업에서 가장 막막한 마케팅 저희가 도와드립니다.동영상
@@ -213,9 +213,9 @@
                           <i className="bx bxs-badge-check check-icon"></i>
                         </div>
                         <h3>
-                          <Link href="/service-details">
+                          
                             <a>회원사간의 교류의장</a>
-                          </Link>
+                          
                         </h3>
                         <p>
                           혼자서 혹은 작은 인원으로 시작하시는 대표님들
@@ -232,15 +232,15 @@
                           <i className="bx bxs-badge-check check-icon"></i>
                         </div>
                         <h3>
-                          <Link href="/service-details">
+                          
                             <a>구글 ads 및 애널리스틱</a>
-                          </Link>
+                          
                         </h3>
                         <p>
                           홈페이지에 누가 어떤 키워드로 유입했고, 체류시간이 어떻게 되며,
                           잠재고객은 누구인지에 대한 분석을 하기 위해선, 구글 애널리스틱이 설치되어야 합니다.
                           또한 수천개의 싸이트에 저렴한 가격으로 높은 효율로 마케팅을 집행하고 싶다면
-                          구글 ads 를 다룰 수 있어야 합니다. 명품 수익 & 반응형 홈페이지 이상의 고객분들에게 설치 및 교육을 진행해드립니다.
+                          구글 ads 를 다룰 수 있어야 합니다. 명품 수익 &amp; 반응형 홈페이지 이상의 고객분들에게 설치 및 교육을 진행해드립니다.
                         </p>
                       </div>
                     </div>

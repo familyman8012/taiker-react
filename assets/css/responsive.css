@@ -30,8 +30,8 @@
     font-size: 14px;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 16px;
     padding-bottom: 12px;
+    padding-text-align: center;
   }
   .sidebar-modal {
     display: none;
@@ -2926,11 +2926,20 @@ Mobile CSS
   .navbar-nav {
     text-align: center;
   }
-  .section-title .sub-title .wordbreaking {
+  .section-title .sub-title {
     text-align: center;
   }
   .choose-area-two .section-title br {
     display: block;
+  }
+  .choose-area-two .section-title h2 {
+    text-align: center;
+  }
+  .section-title h2 {
+    margin: 15px 0px;
+  }
+  .contact-image {
+    display: none;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
