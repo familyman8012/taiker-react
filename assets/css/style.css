@@ -9182,5 +9182,8 @@ Mobile CSS
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .works-area {
+    overflow: hidden;
+  }
 }
 /*# sourceMappingURL=style.css.map */
