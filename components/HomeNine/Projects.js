@@ -1,7 +1,15 @@
     import React, { Component } from 'react';
     import Link from 'next/link';
+import AOS from "aos";
+import "aos/dist/aos.css";
+    
 
     class Projects extends Component {
+      
+      componentDidMount() {
+        // or simply just AOS.init();
+        AOS.init();
+      }
         render() {
             return (
               <div className="works-area ptb-100">
@@ -9,160 +17,180 @@
                   <div className="section-title">
                     <h2>Our portfolio</h2>
                   </div>
-                  <div className="row">
-                    <div className="col-lg-4 col-sm-6 col-xl-3">
-                      <div className="work-card">
-                        <img src="/images/works/work1.png" alt="image" />
+                  <div className="row gx-4 gy-4">
+                    <div
+                      className="col-lg-4 col-sm-6 col-xl-12"
+                      data-aos="fade-right"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a
+                        href="http://mindcarecenter.org"
+                        target="_blank"
+                        rel="noopner noreferrer"
+                      >
+                        <div className="work-card">
+                          <img src="/images/works/work1.png" alt="image" />
 
-                        <div className="content text-center">
-                          <span>
-                            <a>심리상담</a>
-                          </span>
-                          <h3>
-                            <a>마인드케어센터</a>
-                          </h3>
-
-                          <a
-                            className="work-btn"
-                            href="https://mindcarecenter.org/"
-                          >
-                            Read More
-                          </a>
+                          <div className="content text-center">
+                            <span className="s2">심리상담</span>
+                            <h3 className="s2">마인드케어센터</h3>
+                          </div>
                         </div>
-                      </div>
+                      </a>
                     </div>
 
-                    <div className="col-lg-4 col-sm-6 col-xl-3">
-                      <div className="work-card">
-                        <img src="/images/works/work2.png" alt="image" />
+                    <div
+                      className="col-lg-4 col-sm-6 col-xl-12"
+                      data-aos="fade-left"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a
+                        href="http://yymonkeys.dothome.co.kr/works/1/"
+                        target="_blank"
+                        rel="noopner noreferrer"
+                      >
+                        <div className="work-card">
+                          <img src="/images/works/work2.png" alt="image" />
 
-                        <div className="content text-center">
-                          <span>
-                            <a>법무범인</a>
-                          </span>
-                          <h3>
-                            <a>HOPE 법무법인</a>
-                          </h3>
-
-                          <Link href="http://yymonkeys.dothome.co.kr/works/1/">
-                            <a className="work-btn">Read More</a>
-                          </Link>
+                          <div className="content text-center">
+                            <span className="s2">법무범인</span>
+                            <h3 className="s2">HOPE 법무법인</h3>
+                          </div>
                         </div>
-                      </div>
+                      </a>
                     </div>
 
-                    <div className="col-lg-4 col-sm-6 col-xl-3">
-                      <div className="work-card">
-                        <img src="/images/works/work3.png" alt="image" />
+                    <div
+                      className="col-lg-4 col-sm-6 col-xl-12"
+                      data-aos="flip-left"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a
+                        href="http://yymonkeys.dothome.co.kr/"
+                        target="_blank"
+                        rel="noopner noreferrer"
+                      >
+                        <div className="work-card">
+                          <img src="/images/works/work3.png" alt="image" />
 
-                        <div className="content text-center">
-                          <span>
-                            <a>학원/교육</a>
-                          </span>
-                          <h3>
-                            <a>International 유치원</a>
-                          </h3>
-
-                          <Link href="http://yymonkeys.dothome.co.kr/">
-                            <a className="work-btn">Read More</a>
-                          </Link>
+                          <div className="content text-center">
+                            <span className="s2">학원/교육</span>
+                            <h3 className="s2">International 유치원</h3>
+                          </div>
                         </div>
-                      </div>
+                      </a>
                     </div>
 
-                    <div className="col-lg-4 col-sm-6 col-xl-3">
-                      <div className="work-card">
-                        <img src="/images/works/work4.png" alt="image" />
+                    <div
+                      className="col-lg-4 col-sm-6 col-xl-12"
+                      data-aos="flip-right"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a
+                        href="https://yymarket.imweb.me/"
+                        target="_blank"
+                        rel="noopner noreferrer"
+                      >
+                        <div className="work-card">
+                          <img src="/images/works/work4.png" alt="image" />
 
-                        <div className="content text-center">
-                          <span>
-                            <a>쇼핑</a>
-                          </span>
-                          <h3>
-                            <a>YY MARKET</a>
-                          </h3>
-
-                          <Link href="https://yymarket.imweb.me/">
-                            <a className="work-btn">Read More</a>
-                          </Link>
+                          <div className="content text-center">
+                            <span className="s2">쇼핑</span>
+                            <h3 className="s2">YY MARKET</h3>
+                          </div>
                         </div>
-                      </div>
+                      </a>
                     </div>
 
-                    <div className="col-lg-4 col-sm-6 col-xl-3">
+                    <div
+                      className="col-lg-4 col-sm-6 col-xl-12"
+                      data-aos="fade-right"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                        <a
+                        href="https://seolleim.kr/"
+                        target="_blank"
+                        rel="noopner noreferrer"
+                      >
                       <div className="work-card">
                         <img src="/images/works/work5.png" alt="image" />
 
                         <div className="content text-center">
-                          <span>
-                            <a>서비스</a>
-                          </span>
-                          <h3>
-                            <a>설레임연구소</a>
-                          </h3>
+                          <span className="s2">서비스</span>
+                          <h3 className="s2">설레임연구소</h3>
 
-                          <Link href="https://seolleim.kr/">
-                            <a className="work-btn">Read More</a>
-                          </Link>
                         </div>
                       </div>
+                      </a>
                     </div>
 
-                    <div className="col-lg-4 col-sm-6 col-xl-3">
+                    <div
+                      className="col-lg-4 col-sm-6 col-xl-12"
+                      data-aos="fade-left"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                        <a
+                        href="http://yymonkeys.dothome.co.kr/works/3/"
+                        target="_blank"
+                        rel="noopner noreferrer"
+                      >
                       <div className="work-card">
                         <img src="/images/works/work6.png" alt="image" />
 
                         <div className="content text-center">
-                          <span>
-                            <a>GYM</a>
-                          </span>
-                          <h3>
-                            <a>YY GYM</a>
-                          </h3>
+                          <span className="s2">GYM</span>
+                          <h3 className="s2">YY GYM</h3>
 
                           <Link href="http://yymonkeys.dothome.co.kr/works/3/">
                             <a className="work-btn">Read More</a>
                           </Link>
                         </div>
                       </div>
+                      </a>
                     </div>
 
-                    <div className="col-lg-4 col-sm-6 col-xl-3">
+                    <div
+                      className="col-lg-4 col-sm-6 col-xl-12"
+                      data-aos="zoom-in-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                         <a
+                        href="https://keyterior.imweb.me/"
+                        target="_blank"
+                        rel="noopner noreferrer"
+                      >
                       <div className="work-card">
                         <img src="/images/works/work7.png" alt="image" />
 
                         <div className="content text-center">
-                          <span>
-                            <a>인테리어</a>
-                          </span>
-                          <h3>
-                            <a>Keyterior</a>
-                          </h3>
+                          <span className="s2">인테리어</span>
+                          <h3 className="s2">Keyterior</h3>
 
-                          <Link href="https://keyterior.imweb.me/">
-                            <a className="work-btn">Read More</a>
-                          </Link>
                         </div>
                       </div>
+                      </a>
                     </div>
 
-                    <div className="col-lg-4 col-sm-6 col-xl-3">
+                    <div
+                      className="col-lg-4 col-sm-6 col-xl-12"
+                      data-aos="zoom-in-down"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a
+                        href="https://nstyle.imweb.me/"
+                        target="_blank"
+                        rel="noopner noreferrer"
+                      >
                       <div className="work-card">
                         <img src="/images/works/work8.png" alt="image" />
 
                         <div className="content text-center">
-                          <span>
-                            <a>쇼핑</a>
-                          </span>
-                          <h3>
-                            <a>N STYLE</a>
-                          </h3>
+                          <span className="s2">쇼핑</span>
+                          <h3 className="s2">N STYLE</h3>
 
-                          <Link href="https://nstyle.imweb.me/">
-                            <a className="work-btn">Read More</a>
-                          </Link>
                         </div>
                       </div>
+                      </a>
                     </div>
 
                     {/* <div className="col-lg-4 col-sm-6 col-xl-3">
@@ -258,7 +286,7 @@
                     </div> */}
 
                     {/* Pagination */}
-                    <div className="col-lg-12 col-sm-12">
+                    {/* <div className="col-lg-12 col-sm-12">
                       <div className="pagination-area">
                         <Link href="/projects3">
                           <a className="prev page-numbers">
@@ -281,7 +309,7 @@
                           </a>
                         </Link>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
