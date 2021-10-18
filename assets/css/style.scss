@@ -8748,3 +8748,14 @@ End Portfolio Agency Learning Page CSS
     padding-top: 0 !important;
   }
 }
+/*================================================
+Mobile CSS
+=================================================*/
+@media screen and (max-width: 480px) {
+  .adani-nav .navbar {
+    height: 48px;
+  }
+  .navbar .navbar-brand img {
+    width: 80px;
+  }
+}

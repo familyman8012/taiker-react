@@ -10,10 +10,10 @@ import Link from 'next/link';
                         <div className="container mt-80">
                           <div className="banner-content text-center">
                             <h1>
-                             고객이 원하는 홈페이지 그 이상 <br />
+                              고객이 원하는 홈페이지 그 이상 <br />
                               YY AGENCY가 만들어갑니다.
                             </h1>
-                            <p>반응형 홈페이지 &amp; SP 마케팅 전력</p>
+                            <p>반응형 홈페이지 &amp; SP 마케팅 전략</p>
 
                             <div className="banner-btn">
                               <span

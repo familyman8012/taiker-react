@@ -9160,4 +9160,16 @@ End Portfolio Agency Learning Page CSS
 .pt-0 .ptb-100 {
   padding-top: 0 !important;
 }
+
+/*================================================
+Mobile CSS
+=================================================*/
+@media screen and (max-width: 480px) {
+  .adani-nav .navbar {
+    height: 48px;
+  }
+  .navbar .navbar-brand img {
+    width: 80px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
