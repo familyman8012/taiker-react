@@ -7462,8 +7462,17 @@ Start IT Startup Page CSS
   margin-bottom: 30px;
   position: relative;
   transition: $transition;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  -webkit-box-shadow: 3px 7px 7px -2px rgba(114, 114, 114, 0.63);
+  box-shadow: 3px 7px 7px -2px rgba(114, 114, 114, 0.63);
+  .content .s2 {
+    text-shadow: 4px 2px 2px grey;
+    color: #fff;
+  }
 
   &::before {
+    display: none;
     content: "";
     background-image: linear-gradient(
       to bottom,
@@ -7476,11 +7485,12 @@ Start IT Startup Page CSS
     bottom: 0;
     position: absolute;
     border-radius: 8px;
-    transition: $transition;
+    // transition: $transition;
     z-index: 1;
   }
 
   &:hover::before {
+    display: none;
     background-color: rgba(0, 0, 0, 0.8);
   }
 
@@ -7496,7 +7506,7 @@ Start IT Startup Page CSS
     right: 0;
     width: 100%;
     padding: 30px;
-    transition: $transition;
+    // transition: $transition;
     z-index: 5;
 
     span {
@@ -7531,6 +7541,7 @@ Start IT Startup Page CSS
 
   &:hover {
     &::before {
+      display: none;
       height: 100%;
       background-image: linear-gradient(
         to bottom,
@@ -7982,7 +7993,7 @@ SEO Startup Page CSS
   .container-fluid {
     padding-left: 30px;
     padding-right: 30px;
-    max-width: 1920px;
+    max-width: 1520px;
   }
 }
 .work-slider {
@@ -8758,21 +8769,31 @@ Mobile CSS
       width: 80px;
     }
   }
-  .portfolio-agency-banner .banner-content {
-    h1 {
-      font-size: 20px;
-    }
-    p {
-      font-size: 15px;
-    }
-  }
-  .portfolio-agency-banner {
-    height: 350px;
+  .portfolio-agency-banner.pa-bg1 {
+    height: 400px;
     padding-top: 50px;
     padding-bottom: 50px;
+    .banner-content {
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
   }
 
   .works-area {
     overflow: hidden;
+  }
+  .about-content h2 {
+    margin-top: 80px;
+    font-size: 20px;
+  }
+  #navbarSupportedContent {
+    background-color: white;
+  }
+  .navbar-nav {
+    text-align: center;
   }
 }

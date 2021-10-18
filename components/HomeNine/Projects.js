@@ -141,9 +141,7 @@ import "aos/dist/aos.css";
                           <span className="s2">GYM</span>
                           <h3 className="s2">YY GYM</h3>
 
-                          <Link href="http://yymonkeys.dothome.co.kr/works/3/">
-                            <a className="work-btn">Read More</a>
-                          </Link>
+                          
                         </div>
                       </div>
                       </a>
