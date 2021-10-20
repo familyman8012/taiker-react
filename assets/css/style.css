@@ -7784,6 +7784,7 @@ Start IT Startup Page CSS
 .service-card-one {
   margin-bottom: 30px;
   border-radius: 10px;
+  height: 420px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }

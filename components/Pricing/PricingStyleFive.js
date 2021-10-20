@@ -15,7 +15,7 @@
                                                 <div className="col-lg-4 col-sm-6">
                                                   <div className="single-pricing-table center">
                                                     <div className="pricing-header">
-                                                      <h3>소상공인을 위한 홍보용 홈페이지</h3>
+                                                      <h3>홍보용 홈페이지</h3>
                                                     </div>
 
                                                     <div className="price">
@@ -57,7 +57,7 @@
                                                   <div className="single-pricing-table center">
                                                     <div className="pricing-header">
                                                       <h3>
-                                                        명품 반응형 웹사이트
+                                                        표준  반응형 웹사이트
                                                       </h3>
                                                     </div>
 
@@ -105,8 +105,7 @@
                                                   <div className="single-pricing-table center">
                                                     <div className="pricing-header">
                                                       <h3>
-                                                        명품 브랜딩 반응형
-                                                        홈페이지
+                                                        표준 반응형+마케팅
                                                       </h3>
                                                     </div>
 
