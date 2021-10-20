@@ -3521,7 +3521,7 @@ Feedback Area CSS
   p {
     color: #565968;
     margin-bottom: 0;
-    height: 200px;
+    height: 280px;
     box-sizing: border-box;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -3529,7 +3529,6 @@ Feedback Area CSS
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 10;
     line-height: 1.5em;
-    max-height: 10em;
     font: {
       weight: normal;
 
@@ -8744,6 +8743,15 @@ Portfolio Agency Page CSS
 .pa-bg1 {
   background-image: url("/images/portfolio-agency/pa-slider1.jpg");
 }
+.default-btn {
+  font-size: 18px;
+  padding-top: 20px;
+  text-align: center;
+}
+.contact {
+  padding-bottom: 20px;
+}
+
 /*================================================
 End Portfolio Agency Learning Page CSS
 =================================================*/

@@ -3930,7 +3930,7 @@ Feedback Area CSS
 .single-feedback-item p {
   color: #565968;
   margin-bottom: 0;
-  height: 200px;
+  height: 280px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow: hidden;
@@ -3939,7 +3939,6 @@ Feedback Area CSS
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 10;
   line-height: 1.5em;
-  max-height: 10em;
   font-weight: normal;
   font-size: 18px;
 }
@@ -9158,6 +9157,16 @@ Portfolio Agency Page CSS
 
 .pa-bg1 {
   background-image: url("/images/portfolio-agency/pa-slider1.jpg");
+}
+
+.default-btn {
+  font-size: 18px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.contact {
+  padding-bottom: 20px;
 }
 
 /*================================================

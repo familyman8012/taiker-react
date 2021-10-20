@@ -80,8 +80,8 @@
                             </div>
 
                             <div className="col-lg-12 col-md-12 text-center">
-                            <button type="submit" className="default-btn">
-                                문의하기 <span></span>
+                            <button type="submit" className="default-btn contact">
+                                문의하기 <span className="contact_btn"></span>
                             </button>
                             </div>
                         </div>
