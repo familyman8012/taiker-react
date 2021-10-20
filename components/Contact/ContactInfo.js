@@ -43,6 +43,7 @@
                       </div>
                     </div>
                   </div>
+                  <span className="click">*클릭하면 연락바로 가능합니다.*</span>
                 </div>
               </section>
             );

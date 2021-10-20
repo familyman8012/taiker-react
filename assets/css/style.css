@@ -7236,6 +7236,12 @@ Contact Area CSS
   padding-bottom: 70px;
 }
 
+.click {
+  font-size: 15px;
+  text-align: center;
+  padding-left: 550px;
+}
+
 /*================================================
 Footer Area CSS
 =================================================*/

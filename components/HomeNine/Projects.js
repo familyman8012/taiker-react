@@ -16,6 +16,7 @@ import "aos/dist/aos.css";
                 <div className="container-fluid">
                   <div className="section-title">
                     <h2>Our portfolio</h2>
+                    <span >클리하면 해당 홈페이지로 이동합니다.</span>
                   </div>
                   <div className="row gx-4 gy-4">
                     <div
