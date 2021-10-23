@@ -7419,6 +7419,10 @@ Footer Area CSS
   opacity: 0.6;
 }
 
+.single-footer-widget .footer-instagram-post li a img {
+  height: 131px;
+}
+
 .copyright-area {
   border-top: 1px solid #4e5e6a;
   margin-top: 50px;
