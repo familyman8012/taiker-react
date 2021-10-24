@@ -8,8 +8,8 @@
         dots: true,
         autoplayHoverPause: true,
         autoplay: true,
-        mouseDrag: false,
-        touchDrag: false,
+        mouseDrag:true,
+        touchDrag: true,
         navText: [
             "<i className='flaticon-left-chevron'></i>",
             "<i className='flaticon-right-chevron'></i>"
