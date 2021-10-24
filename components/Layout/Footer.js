@@ -77,7 +77,7 @@ class Footer extends Component {
 
                   <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                     <div className="single-footer-widget pl-5">
-                      <h3>Instagram</h3>
+                      <h3>YY AGENCY 일상</h3>
 
                       <ul className="footer-instagram-post">
                         <li>
@@ -151,7 +151,7 @@ class Footer extends Component {
                   </div>
                 </div>
 
-                <div className="copyright-area">
+                {/* <div className="copyright-area">
                   <div className="row align-items-center">
                     <div className="col-lg-6 col-sm-6 col-md-6">
                       <p>
@@ -178,7 +178,7 @@ class Footer extends Component {
                       </ul>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </section>
           </>
