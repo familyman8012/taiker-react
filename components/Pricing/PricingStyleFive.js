@@ -148,10 +148,7 @@
                                                         <i className="bx bxs-badge-check"></i>
                                                         인스타 마케팅 교육 1회
                                                       </li>
-                                                      <li>
-                                                        <i className="bx bxs-badge-check"></i>
-                                                        게시판 &amp;간편로그인
-                                                      </li>
+                                                      
                                                     </ul>
 
                                                     <div className="btn-box">
