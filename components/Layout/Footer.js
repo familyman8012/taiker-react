@@ -32,7 +32,7 @@ class Footer extends Component {
                           <span>SNS</span>
 
                           <ul className="social">
-                            <li>
+                            {/* <li>
                               <a href="https://twitter.com/" target="_blank">
                                 <i className="fab fa-twitter"></i>
                               </a>
@@ -44,7 +44,7 @@ class Footer extends Component {
                               >
                                 <i className="fab fa-facebook-f"></i>
                               </a>
-                            </li>
+                            </li> */}
                             <li>
                               <a
                                 href="https://www.instagram.com/yyagency_webpage/"
@@ -61,14 +61,14 @@ class Footer extends Component {
                                 <i className="fab fa-linkedin"></i>
                               </a>
                             </li>
-                            <li>
+                            {/* <li>
                               <a
                                 href="https://www.youtube.com/"
                                 target="_blank"
                               >
                                 <i className="fab fa-youtube"></i>
                               </a>
-                            </li>
+                            </li> */}
                           </ul>
                         </li>
                       </ul>
