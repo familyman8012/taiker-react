@@ -22,7 +22,7 @@ class Banner extends Component {
                   YY AGENCY가 만들어갑니다.
                 </h1>
                 <p>
-                  반응형 홈페이지 &amp;제작 이후 마켓팅 관리
+                  반응형 홈페이지 &amp; 제작 이후 마켓팅 관리
                 </p>
 
                 <div className="banner-btn">

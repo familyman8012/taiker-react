@@ -981,6 +981,9 @@ Navbar Area CSS
     margin: {
       bottom: 40px;
     }
+    img {
+      height: 83px;
+    }
     h2 {
       margin-bottom: 25px;
       font: {
@@ -6982,7 +6985,7 @@ Footer Area CSS
           opacity: 0.6;
         }
         img {
-          height: 131px;
+          height: 90px;
         }
       }
     }
@@ -7750,7 +7753,7 @@ Start IT Startup Page CSS
   }
   h2 {
     color: $white-color;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 900;
   }
   .contact-btn {

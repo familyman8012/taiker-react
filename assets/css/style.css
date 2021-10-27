@@ -1040,6 +1040,10 @@ Navbar Area CSS
   margin-bottom: 40px;
 }
 
+.sidebar-modal .sidebar-instagram-feed img {
+  height: 83px;
+}
+
 .sidebar-modal .sidebar-instagram-feed h2 {
   margin-bottom: 25px;
   font-size: 24px;
@@ -7419,7 +7423,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .footer-instagram-post li a img {
-  height: 131px;
+  height: 90px;
 }
 
 .copyright-area {
@@ -8208,7 +8212,7 @@ Start IT Startup Page CSS
 
 .lets-work h2 {
   color: #ffffff;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 900;
 }
 
