@@ -17,7 +17,7 @@ class Footer extends Component {
                         <li>
                           <i className="flaticon-phone-call"></i>
                           <span>월~토 : 10:00AM - 06:00PM</span>
-
+                          <a href="tel:+8201068078707">010-6807-8707</a><br/>
                           <a href="tel:+8201071452679">010-7145-2679</a>
                         </li>
                         <li>

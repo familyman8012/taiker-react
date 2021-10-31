@@ -3524,7 +3524,7 @@ Feedback Area CSS
   p {
     color: #565968;
     margin-bottom: 0;
-    height: 280px;
+    height: 324px;
     box-sizing: border-box;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -6871,6 +6871,7 @@ Footer Area CSS
         position: absolute;
         left: 0;
         top: 0;
+        margin-top: -7px;
       }
       span {
         display: block;
