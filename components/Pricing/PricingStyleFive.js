@@ -15,11 +15,24 @@
                                                 <div className="col-lg-4 col-sm-6">
                                                   <div className="single-pricing-table center">
                                                     <div className="pricing-header">
-                                                      <h3>홍보용 홈페이지</h3>
+                                                      <ul className="pricing-tag">
+                                                        <li>#심플</li>
+                                                        <li>#가성비</li>
+                                                        <li>#훌륭한</li>
+                                                      </ul>
+                                                      <h3>가성비 홈페이지</h3>
+
+                                                      <div className="pricing-detail">
+                                                        <span>
+                                                          간단한 정보 전달을
+                                                          하기 좋은 가성비가
+                                                          좋은 홈페이지 입니다.
+                                                        </span>
+                                                      </div>
                                                     </div>
 
                                                     <div className="price">
-                                                      <sup></sup> 99만원{" "}
+                                                      <sup></sup> 99만원
                                                       <sub></sub>
                                                     </div>
 
@@ -30,7 +43,7 @@
                                                       </li>
                                                       <li>
                                                         <i className="bx bxs-badge-check"></i>
-                                                        5page 
+                                                        5page
                                                       </li>
                                                       <li>
                                                         <i className="bx bxs-badge-check"></i>
@@ -46,7 +59,7 @@
                                                     <div className="btn-box">
                                                       <Link href="/contact">
                                                         <a className="default-btn">
-                                                          제작 문의 
+                                                          제작 문의
                                                           <span></span>
                                                         </a>
                                                       </Link>
@@ -57,7 +70,7 @@
                                                   <div className="single-pricing-table center">
                                                     <div className="pricing-header">
                                                       <h3>
-                                                        표준  반응형 웹사이트
+                                                        표준 반응형 웹사이트
                                                       </h3>
                                                     </div>
 
@@ -94,7 +107,7 @@
                                                     <div className="btn-box">
                                                       <Link href="/contact">
                                                         <a className="default-btn">
-                                                          제작 문의 
+                                                          제작 문의
                                                           <span></span>
                                                         </a>
                                                       </Link>
@@ -148,13 +161,12 @@
                                                         <i className="bx bxs-badge-check"></i>
                                                         인스타 마케팅 교육 1회
                                                       </li>
-                                                      
                                                     </ul>
 
                                                     <div className="btn-box">
                                                       <Link href="/contact">
                                                         <a className="default-btn">
-                                                          제작 문의 
+                                                          제작 문의
                                                           <span></span>
                                                         </a>
                                                       </Link>
@@ -214,7 +226,7 @@
                                                     <div className="btn-box">
                                                       <Link href="/contact">
                                                         <a className="default-btn">
-                                                          제작 문의 
+                                                          제작 문의
                                                           <span></span>
                                                         </a>
                                                       </Link>
@@ -278,7 +290,7 @@
                                                     <div className="btn-box">
                                                       <Link href="/contact">
                                                         <a className="default-btn">
-                                                          제작 문의 
+                                                          제작 문의
                                                           <span></span>
                                                         </a>
                                                       </Link>
@@ -320,7 +332,7 @@
                                                       </li>
                                                       <li>
                                                         <i className="bx bxs-badge-check"></i>
-                                                        결제 시스템 
+                                                        결제 시스템
                                                       </li>
                                                       <li>
                                                         <i className="bx bxs-badge-check"></i>
@@ -339,7 +351,7 @@
                                                     <div className="btn-box">
                                                       <Link href="/contact">
                                                         <a className="default-btn">
-                                                          제작 문의 
+                                                          제작 문의
                                                           <span></span>
                                                         </a>
                                                       </Link>
