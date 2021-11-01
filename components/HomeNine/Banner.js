@@ -11,7 +11,7 @@ function Banner() {
     });
   }, []);
   const showChannelIO = useCallback(() => {
-    ga.event({
+    gtag.event({
       action: "제작문의",
       category: "메인비쥬얼채널톡클릭",
       label: "메인비쥬얼버튼",
