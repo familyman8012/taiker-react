@@ -1,16 +1,16 @@
-import '../assets/css/bootstrap.min.css';
-import '../assets/css/fontawesome.min.css';
-import '../assets/css/animate.min.css';
-import '../assets/css/flaticon.css';
-import '../assets/css/boxicons.min.css';
-import 'react-toastify/dist/ReactToastify.css';
-import '../node_modules/react-modal-video/scss/modal-video.scss';
-import 'react-accessible-accordion/dist/fancy-example.css';
-import 'react-image-lightbox/style.css';
-import '../node_modules/react-modal-video/css/modal-video.min.css';
+import "../assets/css/bootstrap.min.css";
+import "../assets/css/fontawesome.min.css";
+import "../assets/css/animate.min.css";
+import "../assets/css/flaticon.css";
+import "../assets/css/boxicons.min.css";
+import "react-toastify/dist/ReactToastify.css";
+import "../node_modules/react-modal-video/scss/modal-video.scss";
+import "react-accessible-accordion/dist/fancy-example.css";
+import "react-image-lightbox/style.css";
+import "../node_modules/react-modal-video/css/modal-video.min.css";
 
-import '../assets/css/style.css';
-import '../assets/css/responsive.css';
+import "../assets/css/style.css";
+import "../assets/css/responsive.css";
 
 // import { Provider } from 'react-redux';
 // import App from 'next/app';
@@ -18,7 +18,7 @@ import '../assets/css/responsive.css';
 // import withRedux from 'next-redux-wrapper';
 // import { initStore } from '../store/reducers/cartReducer';
 // import Loader from '../components/Shared/Loader';
-import GoTop from '../components/Shared/GoTop';
+import GoTop from "../components/Shared/GoTop";
 
 // export default withRedux(initStore)(
 //     class MyApp extends App {
@@ -28,7 +28,7 @@ import GoTop from '../components/Shared/GoTop';
 //             loading: false
 //         };
 //         componentDidMount() {
-//             this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2000); 
+//             this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2000);
 //         }
 //         componentWillUnmount() {
 //             if (this.timerHandle) {
@@ -36,7 +36,7 @@ import GoTop from '../components/Shared/GoTop';
 //                 this.timerHandle = 0;
 //             }
 //         }
-        
+
 //         render () {
 //             const { Component, pageProps, store } = this.props
 
@@ -50,7 +50,7 @@ import GoTop from '../components/Shared/GoTop';
 //                     <Provider store={store}>
 //                         <Component {...pageProps} />
 //                     </Provider>
-                    
+
 //                     {/* Preloader */}
 //                     <Loader loading={this.state.loading} />
 
@@ -64,10 +64,10 @@ import GoTop from '../components/Shared/GoTop';
 
 import React, { useEffect } from "react";
 import { useRouter } from "next/router";
-import * as gtag from "../utils/gtag"
+import * as gtag from "../utils/gtag";
 
 function FacebookPixel() {
-   const router = useRouter();
+  const router = useRouter();
   React.useEffect(() => {
     import("react-facebook-pixel")
       .then((x) => x.default)
@@ -82,7 +82,6 @@ function FacebookPixel() {
   });
   return null;
 }
-
 
 const App = ({ Component, pageProps }) => {
   const router = useRouter();
