@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import Link from '../../utils/ActiveLink';
 import SidebarModal from '../SidebarModal/SidebarModal';
 import NavbarInner from "./NavbarInner";
+import * as gtag from "../../utils/gtag";
 
 class Navbar extends Component {
 
@@ -70,7 +71,16 @@ class Navbar extends Component {
                 <div className="container">
                   <nav className="navbar navbar-expand-md navbar-light">
                     <Link href="/">
-                      <a className="navbar-brand">
+                      <a
+                        className="navbar-brand"
+                        onClick={() =>
+                          gtag.event({
+                            action: "링크 클릭",
+                            category: "header",
+                            label: "logo",
+                          })
+                        }
+                      >
                         <img src="/images/logo.png" alt="logo" />
                       </a>
                     </Link>
