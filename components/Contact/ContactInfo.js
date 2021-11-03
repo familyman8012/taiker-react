@@ -1,5 +1,6 @@
     import { resolveHref } from 'next/dist/shared/lib/router/router';
-    import React, { Component } from 'react';
+import React, { Component } from 'react';
+    import * as gtag from "../../utils/gtag";
 
     class ContactInfo extends Component {
         render() {
@@ -9,7 +10,17 @@
                   <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
                       <div className="contact-info-box">
-                        <a href="http://pf.kakao.com/_cxbjzb" target="_blank">
+                        <a
+                          href="http://pf.kakao.com/_cxbjzb"
+                          target="_blank"
+                          onClick={() =>
+                            gtag.event({
+                              action: "링크 클릭",
+                              category: "Contact",
+                              label: "Kakao talk chanel",
+                            })
+                          }
+                        >
                           <div className="icon">
                             <i className="flaticon-email"></i>
                           </div>
@@ -26,14 +37,34 @@
                         </div>
                         <h3>전화 문의하기</h3>
                         <p>
-                          <a href="tel:+8201068078707">01068078707</a>
+                          <a
+                            href="tel:+8201068078707"
+                            onClick={() =>
+                              gtag.event({
+                                action: "링크 클릭",
+                                category: "Contact",
+                                label: "TEL",
+                              })
+                            }
+                          >
+                            01068078707
+                          </a>
                         </p>
                       </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                       <div className="contact-info-box">
-                        <a href="mailto:yyagency7@gmail.com">
+                        <a
+                          href="mailto:yyagency7@gmail.com"
+                          onClick={() =>
+                            gtag.event({
+                              action: "링크 클릭",
+                              category: "Contact",
+                              label: "Email 문의",
+                            })
+                          }
+                        >
                           <div className="icon">
                             <i className="flaticon-email"></i>
                           </div>
