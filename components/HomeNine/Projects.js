@@ -1,7 +1,8 @@
       import React, { Component } from 'react';
       import Link from 'next/link';
   import AOS from "aos";
-  import "aos/dist/aos.css";
+import "aos/dist/aos.css";
+  import * as gtag from "../../utils/gtag";
       
 
       class Projects extends Component {
@@ -28,6 +29,13 @@
                           href="http://mindcarecenter.org"
                           target="_blank"
                           rel="noopner noreferrer"
+                          onClick={() =>
+                            gtag.event({
+                              action: "링크 클릭",
+                              category: "포토폴리오",
+                              label: "마인드케어",
+                            })
+                          }
                         >
                           <div className="work-card">
                             <img src="/images/works/work1.png" alt="image" />
@@ -49,6 +57,13 @@
                           href="http://yymonkeys.dothome.co.kr/"
                           target="_blank"
                           rel="noopner noreferrer"
+                          onClick={() =>
+                            gtag.event({
+                              action: "링크 클릭",
+                              category: "포토폴리오",
+                              label: "International 유치원",
+                            })
+                          }
                         >
                           <div className="work-card">
                             <img src="/images/works/work3.png" alt="image" />
@@ -60,7 +75,7 @@
                           </div>
                         </a>
                       </div>
-                    
+
                       <div
                         className="col-lg-4 col-sm-6 col-xl-12"
                         data-aos="fade-left"
@@ -70,6 +85,13 @@
                           href="http://yymonkeys.dothome.co.kr/works/1/"
                           target="_blank"
                           rel="noopner noreferrer"
+                          onClick={() =>
+                            gtag.event({
+                              action: "링크 클릭",
+                              category: "포토폴리오",
+                              label: "HOPE 법무법인",
+                            })
+                          }
                         >
                           <div className="work-card">
                             <img src="/images/works/work2.png" alt="image" />
@@ -91,6 +113,13 @@
                           href="https://yymarket.imweb.me/"
                           target="_blank"
                           rel="noopner noreferrer"
+                          onClick={() =>
+                            gtag.event({
+                              action: "링크 클릭",
+                              category: "포토폴리오",
+                              label: "YY MARKET",
+                            })
+                          }
                         >
                           <div className="work-card">
                             <img src="/images/works/work4.png" alt="image" />
@@ -112,6 +141,13 @@
                           href="https://seolleim.kr/"
                           target="_blank"
                           rel="noopner noreferrer"
+                          onClick={() =>
+                            gtag.event({
+                              action: "링크 클릭",
+                              category: "포토폴리오",
+                              label: "설레임연구소",
+                            })
+                          }
                         >
                           <div className="work-card">
                             <img src="/images/works/work5.png" alt="image" />
@@ -133,6 +169,13 @@
                           href="http://yymonkeys.dothome.co.kr/works/3/"
                           target="_blank"
                           rel="noopner noreferrer"
+                          onClick={() =>
+                            gtag.event({
+                              action: "링크 클릭",
+                              category: "포토폴리오",
+                              label: "YY GYM",
+                            })
+                          }
                         >
                           <div className="work-card">
                             <img src="/images/works/work6.png" alt="image" />
@@ -154,6 +197,13 @@
                           href="https://keyterior.imweb.me/"
                           target="_blank"
                           rel="noopner noreferrer"
+                          onClick={() =>
+                            gtag.event({
+                              action: "링크 클릭",
+                              category: "포토폴리오",
+                              label: "Keyterior",
+                            })
+                          }
                         >
                           <div className="work-card">
                             <img src="/images/works/work7.png" alt="image" />
@@ -175,6 +225,13 @@
                           href="https://nstyle.imweb.me/"
                           target="_blank"
                           rel="noopner noreferrer"
+                          onClick={() =>
+                            gtag.event({
+                              action: "링크 클릭",
+                              category: "포토폴리오",
+                              label: "N Style",
+                            })
+                          }
                         >
                           <div className="work-card">
                             <img src="/images/works/work8.png" alt="image" />
