@@ -138,7 +138,7 @@ export class SidebarModal extends Component {
                       <h2>
                         <span className="main-color">
                           <a
-                            href="tel:01068078707"
+                            href="tel:+8201071452679"
                             onClick={() =>
                               gtag.event({
                                 action: "링크 클릭",
@@ -151,11 +151,11 @@ export class SidebarModal extends Component {
                           </a>
                         </span>{" "}
                         <br /> &amp;
-                        <br/>
+                        <br />
                         <span className="main-color">
                           {" "}
                           <a
-                            href="tel:01068078707"
+                            href="tel:+8201071452679"
                             onClick={() =>
                               gtag.event({
                                 action: "링크 클릭",
@@ -169,7 +169,7 @@ export class SidebarModal extends Component {
                         </span>
                         <span className="or">OR</span>
                         <a
-                          href="tel:01068078707"
+                          href="tel:+8201071452679"
                           onClick={() =>
                             gtag.event({
                               action: "링크 클릭",
