@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import * as gtag from "../../utils/gtag";
 
 export class SidebarModal extends Component {
 
@@ -75,7 +76,17 @@ export class SidebarModal extends Component {
                       </a>
                     </li> */}
                     <li>
-                      <a href="https://www.instagram.com/" target="_blank">
+                      <a
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        onClick={() =>
+                          gtag.event({
+                            action: "링크 클릭",
+                            category: "Sidebar",
+                            label: "Instagram sidebar img1",
+                          })
+                        }
+                      >
                         <img
                           src="/images/instagram-image/insta-img1.jpg"
                           alt="image"
@@ -83,7 +94,17 @@ export class SidebarModal extends Component {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/" target="_blank">
+                      <a
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        onClick={() =>
+                          gtag.event({
+                            action: "링크 클릭",
+                            category: "Sidebar",
+                            label: "Instagram sidebar img2",
+                          })
+                        }
+                      >
                         <img
                           src="/images/instagram-image/insta-img2.png"
                           alt="image"
@@ -91,7 +112,17 @@ export class SidebarModal extends Component {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/" target="_blank">
+                      <a
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        onClick={() =>
+                          gtag.event({
+                            action: "링크 클릭",
+                            category: "Sidebar",
+                            label: "Instagram sidebar img3",
+                          })
+                        }
+                      >
                         <img
                           src="/images/instagram-image/insta-img3.png"
                           alt="image"
@@ -105,10 +136,50 @@ export class SidebarModal extends Component {
                   <div className="contact-info">
                     <div className="contact-info-content">
                       <h2>
-                        <span className="main-color">010-6807-8707</span> &amp;
-                        <span className="main-color">010-7145-2679</span>
+                        <span className="main-color">
+                          <a
+                            href="tel:01068078707"
+                            onClick={() =>
+                              gtag.event({
+                                action: "링크 클릭",
+                                category: "Sidebar",
+                                label: "Sidebar tel",
+                              })
+                            }
+                          >
+                            010-6807-8707
+                          </a>
+                        </span>{" "}
+                        <br /> &amp;
+                        <br/>
+                        <span className="main-color">
+                          {" "}
+                          <a
+                            href="tel:01068078707"
+                            onClick={() =>
+                              gtag.event({
+                                action: "링크 클릭",
+                                category: "Sidebar",
+                                label: "Sidebar tel",
+                              })
+                            }
+                          >
+                            010-7145-2679
+                          </a>
+                        </span>
                         <span className="or">OR</span>
-                        <span>yyagency7@gmail.com</span>
+                        <a
+                          href="tel:01068078707"
+                          onClick={() =>
+                            gtag.event({
+                              action: "링크 클릭",
+                              category: "Sidebar",
+                              label: "Sidebar tel",
+                            })
+                          }
+                        >
+                          <span>yyagency7@gmail.com</span>
+                        </a>
                       </h2>
 
                       <ul className="social">
@@ -128,7 +199,10 @@ export class SidebarModal extends Component {
                           </a>
                         </li> */}
                         <li>
-                          <a href="https://www.instagram.com/" target="_blank">
+                          <a
+                            href="https://www.instagram.com/yyagency_webpage"
+                            target="_blank"
+                          >
                             <i className="fab fa-instagram"></i>
                           </a>
                         </li>
