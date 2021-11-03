@@ -20,7 +20,7 @@ class Footer extends Component {
                           <i className="flaticon-phone-call"></i>
                           <span>월~토 : 10:00AM - 06:00PM</span>
                           <a
-                            href="tel:+8201068078707"
+                            href="tel:+8201071452679"
                             onClick={() =>
                               gtag.event({
                                 action: "링크 클릭",
@@ -29,7 +29,7 @@ class Footer extends Component {
                               })
                             }
                           >
-                            010-6807-8707
+                            010-7145-2679
                           </a>
                           <br />
                           <a

@@ -38,7 +38,7 @@ import React, { Component } from 'react';
                         <h3>전화 문의하기</h3>
                         <p>
                           <a
-                            href="tel:+8201068078707"
+                            href="tel:+8201071452679"
                             onClick={() =>
                               gtag.event({
                                 action: "링크 클릭",
@@ -47,7 +47,7 @@ import React, { Component } from 'react';
                               })
                             }
                           >
-                            01068078707
+                            01071452679
                           </a>
                         </p>
                       </div>
