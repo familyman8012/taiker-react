@@ -1,5 +1,6 @@
                                 import React, { Component } from 'react';
-                                import Link from 'next/link';
+import Link from 'next/link';
+                                import * as gtag from "../../utils/gtag";
 
                                 class PricingStyleThree extends Component {
                                     render() {
@@ -58,7 +59,19 @@
 
                                                     <div className="btn-box">
                                                       <Link href="/contact">
-                                                        <a className="default-btn">
+                                                        <a
+                                                          className="default-btn"
+                                                          onClick={() =>
+                                                            gtag.event({
+                                                              action:
+                                                                "링크 클릭",
+                                                              category:
+                                                                "제작문의",
+                                                              label:
+                                                                "99만원 패키지",
+                                                            })
+                                                          }
+                                                        >
                                                           제작 문의
                                                           <span></span>
                                                         </a>
@@ -106,7 +119,19 @@
 
                                                     <div className="btn-box">
                                                       <Link href="/contact">
-                                                        <a className="default-btn">
+                                                        <a
+                                                          className="default-btn"
+                                                          onClick={() =>
+                                                            gtag.event({
+                                                              action:
+                                                                "링크 클릭",
+                                                              category:
+                                                                "제작 문의",
+                                                              label:
+                                                                "280만원 패키지",
+                                                            })
+                                                          }
+                                                        >
                                                           제작 문의
                                                           <span></span>
                                                         </a>
@@ -165,7 +190,19 @@
 
                                                     <div className="btn-box">
                                                       <Link href="/contact">
-                                                        <a className="default-btn">
+                                                        <a
+                                                          className="default-btn"
+                                                          onClick={() =>
+                                                            gtag.event({
+                                                              action:
+                                                                "링크 클릭",
+                                                              category:
+                                                                "제작 문의",
+                                                              label:
+                                                                "350만원 패키지",
+                                                            })
+                                                          }
+                                                        >
                                                           제작 문의
                                                           <span></span>
                                                         </a>
@@ -225,7 +262,19 @@
 
                                                     <div className="btn-box">
                                                       <Link href="/contact">
-                                                        <a className="default-btn">
+                                                        <a
+                                                          className="default-btn"
+                                                          onClick={() =>
+                                                            gtag.event({
+                                                              action:
+                                                                "링크 클릭",
+                                                              category:
+                                                                "제작 문의",
+                                                              label:
+                                                                "500만원 패키지",
+                                                            })
+                                                          }
+                                                        >
                                                           제작 문의
                                                           <span></span>
                                                         </a>
@@ -289,7 +338,19 @@
 
                                                     <div className="btn-box">
                                                       <Link href="/contact">
-                                                        <a className="default-btn">
+                                                        <a
+                                                          className="default-btn"
+                                                          onClick={() =>
+                                                            gtag.event({
+                                                              action:
+                                                                "링크 클릭",
+                                                              category:
+                                                                "제작 문의",
+                                                              label:
+                                                                "700만원 패키지",
+                                                            })
+                                                          }
+                                                        >
                                                           제작 문의
                                                           <span></span>
                                                         </a>
@@ -350,7 +411,19 @@
 
                                                     <div className="btn-box">
                                                       <Link href="/contact">
-                                                        <a className="default-btn">
+                                                        <a
+                                                          className="default-btn"
+                                                          onClick={() =>
+                                                            gtag.event({
+                                                              action:
+                                                                "링크 클릭",
+                                                              category:
+                                                                "제작 문의",
+                                                              label:
+                                                                "1000만원 패키지",
+                                                            })
+                                                          }
+                                                        >
                                                           제작 문의
                                                           <span></span>
                                                         </a>
