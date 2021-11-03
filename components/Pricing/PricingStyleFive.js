@@ -15,19 +15,19 @@
                                                 <div className="col-lg-4 col-sm-6">
                                                   <div className="single-pricing-table center">
                                                     <div className="pricing-header">
-                                                      <ul className="pricing-tag">
+                                                      {/* <ul className="pricing-tag">
                                                         <li>#심플</li>
                                                         <li>#가성비</li>
                                                         <li>#훌륭한</li>
-                                                      </ul>
+                                                      </ul> */}
                                                       <h3>가성비 홈페이지</h3>
 
                                                       <div className="pricing-detail">
-                                                        <span>
+                                                        {/* <span>
                                                           간단한 정보 전달을
                                                           하기 좋은 가성비가
                                                           좋은 홈페이지 입니다.
-                                                        </span>
+                                                        </span> */}
                                                       </div>
                                                     </div>
 
