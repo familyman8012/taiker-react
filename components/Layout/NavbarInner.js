@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from "../../utils/ActiveLink";
-
+import * as gtag from "../../utils/gtag";
+      
 function NavbarInner({
   classOne,
   toggleModal,
@@ -10,38 +11,91 @@ function NavbarInner({
       <ul className="navbar-nav">
         <li className="nav-item">
           <Link href="/" activeClassName="active">
-            <a className="nav-link">Home</a>
+            <a
+              className="nav-link"
+              onClick={() =>
+                gtag.event({
+                  action: "링크 클릭",
+                  category: "header",
+                  label: "HOME",
+                })
+              }
+            >
+              Home
+            </a>
           </Link>
         </li>
 
         <li className="nav-item">
           <Link href="/about">
-            <a className="nav-link">About</a>
+            <a
+              className="nav-link"
+              onClick={() =>
+                gtag.event({
+                  action: "링크 클릭",
+                  category: "header",
+                  label: "ABOUT",
+                })
+              }
+            >
+              About
+            </a>
           </Link>
         </li>
 
         <li className="nav-item">
           <Link href="/services" activeClassName="active">
-            <a className="nav-link">Services</a>
+            <a
+              className="nav-link"
+              onClick={() =>
+                gtag.event({
+                  action: "링크 클릭",
+                  category: "header",
+                  label: "SERVICE",
+                })
+              }
+            >
+              Services
+            </a>
           </Link>
         </li>
 
         <li className="nav-item">
           <Link href="/projects">
-            <a className="nav-link">Portfolio</a>
+            <a
+              className="nav-link"
+              onClick={() =>
+                gtag.event({
+                  action: "링크 클릭",
+                  category: "header",
+                  label: "PORTFOLIO",
+                })
+              }
+            >
+              Portfolio
+            </a>
           </Link>
         </li>
 
         <li className="nav-item">
           <Link href="/contact" activeClassName="active">
-            <a className="nav-link">Contact</a>
+            <a
+              className="nav-link"
+              onClick={() =>
+                gtag.event({
+                  action: "링크 클릭",
+                  category: "header",
+                  label: "CONTACT",
+                })
+              }
+            >
+              Contact
+            </a>
           </Link>
         </li>
       </ul>
 
       <div className="others-options">
-        
-
         <div className="burger-menu" onClick={toggleModal}>
           <span></span>
           <span></span>
