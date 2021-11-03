@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import * as gtag from "../../utils/gtag";
+      
 
 class Footer extends Component {
     render() {
@@ -17,13 +19,45 @@ class Footer extends Component {
                         <li>
                           <i className="flaticon-phone-call"></i>
                           <span>월~토 : 10:00AM - 06:00PM</span>
-                          <a href="tel:+8201068078707">010-6807-8707</a><br/>
-                          <a href="tel:+8201071452679">010-7145-2679</a>
+                          <a
+                            href="tel:+8201068078707"
+                            onClick={() =>
+                              gtag.event({
+                                action: "링크 클릭",
+                                category: "Footer",
+                                label: "phone call icon",
+                              })
+                            }
+                          >
+                            010-6807-8707
+                          </a>
+                          <br />
+                          <a
+                            href="tel:+8201071452679"
+                            onClick={() =>
+                              gtag.event({
+                                action: "링크 클릭",
+                                category: "Footer",
+                                label: "phone call icon",
+                              })
+                            }
+                          >
+                            010-7145-2679
+                          </a>
                         </li>
                         <li>
                           <i className="flaticon-email"></i>
                           <span>이메일 문의하기</span>
-                          <a href="mailto:example@taiker.com">
+                          <a
+                            href="yyagency7@gmail.com"
+                            onClick={() =>
+                              gtag.event({
+                                action: "링크 클릭",
+                                category: "Footer",
+                                label: "Email 문의하기",
+                              })
+                            }
+                          >
                             yyagency7@gmail.com
                           </a>
                         </li>
@@ -49,18 +83,25 @@ class Footer extends Component {
                               <a
                                 href="https://www.instagram.com/yyagency_webpage/"
                                 target="_blank"
+                                onClick={() =>
+                                  gtag.event({
+                                    action: "링크 클릭",
+                                    category: "Footer",
+                                    label: "Instagram icon",
+                                  })
+                                }
                               >
                                 <i className="fab fa-instagram"></i>
                               </a>
                             </li>
-                            <li>
+                            {/* <li>
                               <a
                                 href="https://www.linkedin.com/"
                                 target="_blank"
                               >
                                 <i className="fab fa-linkedin"></i>
                               </a>
-                            </li>
+                            </li> */}
                             {/* <li>
                               <a
                                 href="https://www.youtube.com/"
@@ -84,6 +125,13 @@ class Footer extends Component {
                           <a
                             href="https://www.instagram.com/yyagency_webpage/"
                             target="_blank"
+                            onClick={() =>
+                              gtag.event({
+                                action: "링크 클릭",
+                                category: "Footer",
+                                label: "Instagram img",
+                              })
+                            }
                           >
                             <img
                               src="/images/instagram-image/insta-img1.jpg"
@@ -95,6 +143,13 @@ class Footer extends Component {
                           <a
                             href="https://www.instagram.com/yyagency_webpage/"
                             target="_blank"
+                            onClick={() =>
+                              gtag.event({
+                                action: "링크 클릭",
+                                category: "Footer",
+                                label: "Instagram img2",
+                              })
+                            }
                           >
                             <img
                               src="/images/instagram-image/insta-img2.png"
@@ -106,6 +161,13 @@ class Footer extends Component {
                           <a
                             href="https://www.instagram.com/yyagency_webpage/"
                             target="_blank"
+                            onClick={() =>
+                              gtag.event({
+                                action: "링크 클릭",
+                                category: "Footer",
+                                label: "Instagram img3",
+                              })
+                            }
                           >
                             <img
                               src="/images/instagram-image/insta-img3.png"

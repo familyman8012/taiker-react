@@ -10,7 +10,11 @@ class Navbar extends Component {
     state = {
         sidebarModal: false
     };
-    toggleModal = () => {
+    toggleModal = () => {gtag.event({
+      action: "링크 클릭",
+      category: "Sidebar",
+      label: "사이드바",
+    });
         this.setState({
             sidebarModal: !this.state.sidebarModal
         });

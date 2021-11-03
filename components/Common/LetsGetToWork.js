@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import * as gtag from "../../utils/gtag";
+      
 
 class LetsGetToWork extends Component {
     render() {
@@ -18,7 +20,16 @@ class LetsGetToWork extends Component {
                   <div className="col-lg-6">
                     <div className="contact-btn">
                       <Link href="/contact">
-                        <a className="default-btn">
+                        <a
+                          className="default-btn"
+                          onClick={() =>
+                            gtag.event({
+                              action: "링크 클릭",
+                              category: "제작 문의",
+                              label: "바로 진행하기",
+                            })
+                          }
+                        >
                           문의하기 <span></span>
                         </a>
                       </Link>
