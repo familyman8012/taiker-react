@@ -32,7 +32,7 @@ function Banner() {
 
               <div className="banner-btn">
                 <span className="default-btn mr-4" onClick={showChannelIO}>
-                  제작 문의 <span></span>
+                  지금 즉시, 제작 관련 무료 컨설팅<span></span>
                 </span>
               </div>
             </div>
