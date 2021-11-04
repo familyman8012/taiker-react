@@ -8072,7 +8072,7 @@ Start IT Startup Page CSS
 
 .single-pricing-table.center .pricing-features {
   text-align: left;
-  height: 360px;
+  height: 300px;
 }
 
 .pricing-area-two {
@@ -9200,6 +9200,18 @@ End Portfolio Agency Learning Page CSS
 
 .pt-0 .ptb-100 {
   padding-top: 0 !important;
+}
+
+.tit_product {
+  color: #00b9f1;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.box_product_desc {
+  padding: 15px 0;
+  color: #aba5a5;
+  border-bottom: 2px dashed #f4f5fe;
 }
 
 @media only screen and (max-width: 767px) {
