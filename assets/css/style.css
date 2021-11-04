@@ -9201,4 +9201,16 @@ End Portfolio Agency Learning Page CSS
 .pt-0 .ptb-100 {
   padding-top: 0 !important;
 }
+
+@media only screen and (max-width: 767px) {
+  .adani-nav .container {
+    padding: 0;
+  }
+  .navbar-brand {
+    margin-left: var(--bs-gutter-x, 0.75rem);
+  }
+  .navbar-toggler-right {
+    margin-right: var(--bs-gutter-x, 0.75rem);
+  }
+}
 /*# sourceMappingURL=style.css.map */
