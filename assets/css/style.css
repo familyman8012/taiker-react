@@ -3092,8 +3092,13 @@ Projects Area CSS
 
 .projects-area .container-fluid {
   max-width: 1920px;
-  padding-left: 30px;
-  padding-right: 30px;
+}
+
+@media only screen and (min-width: 767px) {
+  .projects-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
 
 .single-projects-box {
