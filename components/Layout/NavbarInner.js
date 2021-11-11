@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
 import Link from "../../utils/ActiveLink";
 import * as gtag from "../../utils/gtag";
-      
-function NavbarInner({
-  classOne,
-  toggleModal,
-}) {
+
+function NavbarInner({ classOne, toggleModal }) {
   return (
     <div className={classOne} id="navbarSupportedContent">
       <ul className="navbar-nav">
@@ -61,6 +58,23 @@ function NavbarInner({
         </li>
 
         <li className="nav-item">
+          <a
+            className="nav-link"
+            href="https://blog.naver.com/yyagency7"
+            target="_blank"
+            onClick={() =>
+              gtag.event({
+                action: "링크 클릭",
+                category: "header",
+                label: "블로그링크",
+              })
+            }
+          >
+            Blog
+          </a>
+        </li>
+
+        <li className="nav-item">
           <Link href="/projects">
             <a
               className="nav-link"
@@ -106,4 +120,4 @@ function NavbarInner({
   );
 }
 
-export default NavbarInner
+export default NavbarInner;
