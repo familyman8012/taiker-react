@@ -102,7 +102,7 @@ class Footer extends Component {
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
+              <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="single-footer-widget pl-5">
                   <h3>YY AGENCY 일상</h3>
 

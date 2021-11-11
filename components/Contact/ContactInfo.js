@@ -53,7 +53,7 @@ import React, { Component } from 'react';
                       </div>
                     </div>
 
-                    <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
+                    <div className="col-lg-4 col-md-6 col-sm-6">
                       <div className="contact-info-box">
                         <a
                           href="mailto:yyagency7@gmail.com"

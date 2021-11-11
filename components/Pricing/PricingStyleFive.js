@@ -28,7 +28,7 @@ class PricingStyleThree extends Component {
                                                         <li>#가성비</li>
                                                         <li>#훌륭한</li>
                                                       </ul> */}
-                  <span class="tit_product">심플하지만 훌륭한</span>
+                  <span className="tit_product">심플하지만 훌륭한</span>
                   <h3>Essential 홈페이지</h3>
 
                   <div className="pricing-detail">
@@ -97,7 +97,7 @@ class PricingStyleThree extends Component {
             <div className="col-lg-4 col-sm-6">
               <div className="single-pricing-table center">
                 <div className="pricing-header">
-                  <span class="tit_product">고객들이 더 좋아하는</span>
+                  <span className="tit_product">고객들이 더 좋아하는</span>
                   <h3>명품 반응형 웹사이트</h3>
                 </div>
 
@@ -162,7 +162,7 @@ class PricingStyleThree extends Component {
             <div className="col-lg-4 col-sm-6">
               <div className="single-pricing-table center">
                 <div className="pricing-header">
-                  <span class="tit_product">
+                  <span className="tit_product">
                     홈페이지에 마케팅의 날개를 다는
                   </span>
                   <h3>명품 반응형+마케팅</h3>
@@ -238,7 +238,7 @@ class PricingStyleThree extends Component {
             <div className="col-lg-4 col-sm-6">
               <div className="single-pricing-table center">
                 <div className="pricing-header">
-                  <span class="tit_product">매출 극대화를 위한</span>
+                  <span className="tit_product">매출 극대화를 위한</span>
                   <h3>수익형 E-BIZ 쇼핑몰</h3>
                 </div>
 
@@ -308,7 +308,7 @@ class PricingStyleThree extends Component {
             <div className="col-lg-4 col-sm-6">
               <div className="single-pricing-table center">
                 <div className="pricing-header">
-                  <span class="tit_product">기업의 가치를 높이는</span>
+                  <span className="tit_product">기업의 가치를 높이는</span>
                   <h3>품격 높은 기업형 홈페이지</h3>
                 </div>
 
@@ -380,10 +380,10 @@ class PricingStyleThree extends Component {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3">
+            <div className="col-lg-4 col-sm-6">
               <div className="single-pricing-table center">
                 <div className="pricing-header">
-                  <span class="tit_product">스타트업의 꿈을 구현하는</span>
+                  <span className="tit_product">스타트업의 꿈을 구현하는</span>
                   <h3>PLATFORM PROJECT</h3>
                 </div>
 
