@@ -15,6 +15,11 @@ class PricingStyleThree extends Component {
               <br /> 모든 제작은 맞춤형으로 제작되는 만큼 무료 컨설팅으로
               문의주시면
               <br /> 자세하고 꼼꼼하게 안내해드리겠습니다.
+              <br /> 대표님들의 상황에 따라, 워드프레스, IMWEB은 물론
+              <br />
+              REACT, NEXTJS, NODEJS 등의 최신 기술 스택을 최대한의 퍼포먼스로,
+              <br />
+              홈페이지 및 플랫폼을 제작해드리고 있습니다.
             </p>
             {/* <p>.</p> */}
           </div>
@@ -76,21 +81,22 @@ class PricingStyleThree extends Component {
                 </ul> */}
 
                 <div className="btn-box">
-                  <Link href="/contact">
-                    <a
-                      className="default-btn"
-                      onClick={() =>
-                        gtag.event({
-                          action: "링크 클릭",
-                          category: "제작문의",
-                          label: "99만원 패키지",
-                        })
-                      }
-                    >
-                      제작 문의
-                      <span></span>
-                    </a>
-                  </Link>
+                  <a
+                    className="default-btn"
+                    href="https://pf.kakao.com/_cxbjzb/chat"
+                    target="_blank"
+                    rel="noopner noreferrer"
+                    onClick={() =>
+                      gtag.event({
+                        action: "링크 클릭",
+                        category: "제작문의",
+                        label: "99만원 패키지",
+                      })
+                    }
+                  >
+                    제작 문의
+                    <span></span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -141,21 +147,22 @@ class PricingStyleThree extends Component {
                 </ul> */}
 
                 <div className="btn-box">
-                  <Link href="/contact">
-                    <a
-                      className="default-btn"
-                      onClick={() =>
-                        gtag.event({
-                          action: "링크 클릭",
-                          category: "제작 문의",
-                          label: "280만원 패키지",
-                        })
-                      }
-                    >
-                      제작 문의
-                      <span></span>
-                    </a>
-                  </Link>
+                  <a
+                    className="default-btn"
+                    href="https://pf.kakao.com/_cxbjzb/chat"
+                    target="_blank"
+                    rel="noopner noreferrer"
+                    onClick={() =>
+                      gtag.event({
+                        action: "링크 클릭",
+                        category: "제작문의",
+                        label: "280만원 패키지",
+                      })
+                    }
+                  >
+                    제작 문의
+                    <span></span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -217,21 +224,22 @@ class PricingStyleThree extends Component {
                 </ul> */}
 
                 <div className="btn-box">
-                  <Link href="/contact">
-                    <a
-                      className="default-btn"
-                      onClick={() =>
-                        gtag.event({
-                          action: "링크 클릭",
-                          category: "제작 문의",
-                          label: "350만원 패키지",
-                        })
-                      }
-                    >
-                      제작 문의
-                      <span></span>
-                    </a>
-                  </Link>
+                  <a
+                    className="default-btn"
+                    href="https://pf.kakao.com/_cxbjzb/chat"
+                    target="_blank"
+                    rel="noopner noreferrer"
+                    onClick={() =>
+                      gtag.event({
+                        action: "링크 클릭",
+                        category: "제작문의",
+                        label: "350만원 패키지",
+                      })
+                    }
+                  >
+                    제작 문의
+                    <span></span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -239,7 +247,7 @@ class PricingStyleThree extends Component {
               <div className="single-pricing-table center">
                 <div className="pricing-header">
                   <span className="tit_product">매출 극대화를 위한</span>
-                  <h3>수익형 E-BIZ 쇼핑몰</h3>
+                  <h3>수익형 E-BIZ 반응형 쇼핑몰</h3>
                 </div>
 
                 {/* <div className="price">
@@ -289,10 +297,13 @@ class PricingStyleThree extends Component {
                   <Link href="/contact">
                     <a
                       className="default-btn"
+                      href="https://pf.kakao.com/_cxbjzb/chat"
+                      target="_blank"
+                      rel="noopner noreferrer"
                       onClick={() =>
                         gtag.event({
                           action: "링크 클릭",
-                          category: "제작 문의",
+                          category: "제작문의",
                           label: "500만원 패키지",
                         })
                       }
@@ -309,7 +320,7 @@ class PricingStyleThree extends Component {
               <div className="single-pricing-table center">
                 <div className="pricing-header">
                   <span className="tit_product">기업의 가치를 높이는</span>
-                  <h3>품격 높은 기업형 홈페이지</h3>
+                  <h3>품격 높은 기업형 반응형 홈페이지</h3>
                 </div>
 
                 {/* <div className="price">
@@ -361,21 +372,22 @@ class PricingStyleThree extends Component {
                 </ul> */}
 
                 <div className="btn-box">
-                  <Link href="/contact">
-                    <a
-                      className="default-btn"
-                      onClick={() =>
-                        gtag.event({
-                          action: "링크 클릭",
-                          category: "제작 문의",
-                          label: "700만원 패키지",
-                        })
-                      }
-                    >
-                      제작 문의
-                      <span></span>
-                    </a>
-                  </Link>
+                  <a
+                    className="default-btn"
+                    href="https://pf.kakao.com/_cxbjzb/chat"
+                    target="_blank"
+                    rel="noopner noreferrer"
+                    onClick={() =>
+                      gtag.event({
+                        action: "링크 클릭",
+                        category: "제작문의",
+                        label: "700만원 패키지",
+                      })
+                    }
+                  >
+                    제작 문의
+                    <span></span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -437,21 +449,22 @@ class PricingStyleThree extends Component {
                 </ul> */}
 
                 <div className="btn-box">
-                  <Link href="/contact">
-                    <a
-                      className="default-btn"
-                      onClick={() =>
-                        gtag.event({
-                          action: "링크 클릭",
-                          category: "제작 문의",
-                          label: "1000만원 패키지",
-                        })
-                      }
-                    >
-                      제작 문의
-                      <span></span>
-                    </a>
-                  </Link>
+                  <a
+                    className="default-btn"
+                    href="https://pf.kakao.com/_cxbjzb/chat"
+                    target="_blank"
+                    rel="noopner noreferrer"
+                    onClick={() =>
+                      gtag.event({
+                        action: "링크 클릭",
+                        category: "제작문의",
+                        label: "1000만원 패키지",
+                      })
+                    }
+                  >
+                    제작 문의
+                    <span></span>
+                  </a>
                 </div>
               </div>
             </div>
