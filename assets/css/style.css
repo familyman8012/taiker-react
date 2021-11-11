@@ -3110,6 +3110,7 @@ Projects Area CSS
   .projects-area .container-fluid {
     padding-left: 100px;
     padding-right: 100px;
+    margin-left: 25%;
   }
 }
 
@@ -7924,6 +7925,10 @@ Start IT Startup Page CSS
 
 .it-overview .overview-content .content .features-text h4 {
   margin-bottom: 10px;
+}
+
+.works-area {
+  overflow: hidden;
 }
 
 .works-area .more-work {

@@ -2741,6 +2741,7 @@ Projects Area CSS
     @media only screen and (min-width: 767px) {
       padding-left: 100px;
       padding-right: 100px;
+      margin-left: 25%;
     }
   }
 }
@@ -7471,6 +7472,7 @@ Start IT Startup Page CSS
 
 // Work Card
 .works-area {
+  overflow: hidden;
   .more-work {
     margin-top: 20px;
     text-align: center;
