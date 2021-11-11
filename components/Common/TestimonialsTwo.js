@@ -73,7 +73,12 @@ class TestimonialsTwo extends Component {
                 </p>
                 <div className="client-info">
                   <h3>커피파는 청년 고객님</h3>
-                  <img src="/images/client-image/client1.png" alt="image" />
+                  <Image
+                    src="/images/client-image/client1.png"
+                    width={70}
+                    height={70}
+                    alt="image"
+                  />
                 </div>
               </div>
 

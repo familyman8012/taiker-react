@@ -202,7 +202,12 @@ class Projects extends Component {
                 }
               >
                 <div className="work-card">
-                  <img src="/images/works/work6.png" alt="image" />
+                  <Image
+                    src="/images/works/work6.png"
+                    width={1465}
+                    height={765}
+                    alt="image"
+                  />
 
                   <div className="content text-center">
                     <span className="s2">GYM</span>
