@@ -6,6 +6,9 @@
   p {
     font-size: 14px;
   }
+  .works-area {
+    overflow: hidden;
+  }
   .ptb-100 {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1390,6 +1393,9 @@
   }
   .work-card .content h3 {
     font-size: 20px;
+  }
+  .works-area {
+    overflow: hidden;
   }
   .works-area .more-work {
     margin-top: 10px;

@@ -290,6 +290,14 @@ textarea.form-control {
   padding-top: 13px;
 }
 
+.works-area {
+  overflow: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root .shape-img6 {
+  display: none;
+}
+
 .form-select {
   height: 50px;
   border: 1px solid #eeeeee;
@@ -328,6 +336,10 @@ textarea.form-control {
   -webkit-box-shadow: unset;
           box-shadow: unset;
   border-color: #00b9f1;
+}
+
+.works-area {
+  overflow: hidden;
 }
 
 /*================================================
@@ -3092,8 +3104,14 @@ Projects Area CSS
 
 .projects-area .container-fluid {
   max-width: 1920px;
-  padding-left: 30px;
-  padding-right: 30px;
+}
+
+@media only screen and (min-width: 767px) {
+  .projects-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 25%;
+  }
 }
 
 .single-projects-box {
@@ -7909,6 +7927,10 @@ Start IT Startup Page CSS
   margin-bottom: 10px;
 }
 
+.works-area {
+  overflow: hidden;
+}
+
 .works-area .more-work {
   margin-top: 20px;
   text-align: center;
@@ -8067,7 +8089,7 @@ Start IT Startup Page CSS
 
 .single-pricing-table.center .pricing-features {
   text-align: left;
-  height: 360px;
+  height: 300px;
 }
 
 .pricing-area-two {
@@ -9195,5 +9217,29 @@ End Portfolio Agency Learning Page CSS
 
 .pt-0 .ptb-100 {
   padding-top: 0 !important;
+}
+
+.tit_product {
+  color: #00b9f1;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.box_product_desc {
+  padding: 15px 0;
+  color: #aba5a5;
+  border-bottom: 2px dashed #f4f5fe;
+}
+
+@media only screen and (max-width: 767px) {
+  .adani-nav .container {
+    padding: 0;
+  }
+  .navbar-brand {
+    margin-left: var(--bs-gutter-x, 0.75rem);
+  }
+  .navbar-toggler-right {
+    margin-right: var(--bs-gutter-x, 0.75rem);
+  }
 }
 /*# sourceMappingURL=style.css.map */

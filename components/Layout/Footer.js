@@ -1,72 +1,58 @@
-import React, { Component } from 'react';
-import Link from 'next/link';
+import React, { Component } from "react";
+import Link from "next/link";
 import * as gtag from "../../utils/gtag";
-      
 
 class Footer extends Component {
-    render() {
-        let currentYear = new Date().getFullYear();
-        return (
-          <>
-            <section className="footer-area">
-              <div className="container">
-                <div className="row">
-                  <div className="col-lg-4 col-md-6 col-sm-6">
-                    <div className="single-footer-widget">
-                      <h3>제작 문의 및 SNS</h3>
+  render() {
+    let currentYear = new Date().getFullYear();
+    return (
+      <>
+        <section className="footer-area">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="single-footer-widget">
+                  <h3>제작 문의 및 SNS</h3>
 
-                      <ul className="footer-contact-info">
-                        <li>
-                          <i className="flaticon-phone-call"></i>
-                          <span>월~토 : 10:00AM - 06:00PM</span>
-                          <a
-                            href="tel:+8201071452679"
-                            onClick={() =>
-                              gtag.event({
-                                action: "링크 클릭",
-                                category: "Footer",
-                                label: "phone call icon",
-                              })
-                            }
-                          >
-                            010-7145-2679
-                          </a>
-                          <br />
-                          <a
-                            href="tel:+8201071452679"
-                            onClick={() =>
-                              gtag.event({
-                                action: "링크 클릭",
-                                category: "Footer",
-                                label: "phone call icon",
-                              })
-                            }
-                          >
-                            010-7145-2679
-                          </a>
-                        </li>
-                        <li>
-                          <i className="flaticon-email"></i>
-                          <span>이메일 문의하기</span>
-                          <a
-                            href="yyagency7@gmail.com"
-                            onClick={() =>
-                              gtag.event({
-                                action: "링크 클릭",
-                                category: "Footer",
-                                label: "Email 문의하기",
-                              })
-                            }
-                          >
-                            yyagency7@gmail.com
-                          </a>
-                        </li>
-                        <li>
-                          <i className="flaticon-social-media"></i>
-                          <span>SNS</span>
+                  <ul className="footer-contact-info">
+                    <li>
+                      <i className="flaticon-phone-call"></i>
+                      <span>월~토 : 10:00AM - 06:00PM</span>
+                      <a
+                        href="tel:+8201071452679"
+                        onClick={() =>
+                          gtag.event({
+                            action: "링크 클릭",
+                            category: "Footer",
+                            label: "phone call icon",
+                          })
+                        }
+                      >
+                        010-7145-2679
+                      </a>
+                    </li>
+                    <li>
+                      <i className="flaticon-email"></i>
+                      <span>이메일 문의하기</span>
+                      <a
+                        href="yyagency7@gmail.com"
+                        onClick={() =>
+                          gtag.event({
+                            action: "링크 클릭",
+                            category: "Footer",
+                            label: "Email 문의하기",
+                          })
+                        }
+                      >
+                        yyagency7@gmail.com
+                      </a>
+                    </li>
+                    <li>
+                      <i className="flaticon-social-media"></i>
+                      <span>SNS</span>
 
-                          <ul className="social">
-                            {/* <li>
+                      <ul className="social">
+                        {/* <li>
                               <a href="https://twitter.com/" target="_blank">
                                 <i className="fab fa-twitter"></i>
                               </a>
@@ -79,22 +65,22 @@ class Footer extends Component {
                                 <i className="fab fa-facebook-f"></i>
                               </a>
                             </li> */}
-                            <li>
-                              <a
-                                href="https://www.instagram.com/yyagency_webpage/"
-                                target="_blank"
-                                onClick={() =>
-                                  gtag.event({
-                                    action: "링크 클릭",
-                                    category: "Footer",
-                                    label: "Instagram icon",
-                                  })
-                                }
-                              >
-                                <i className="fab fa-instagram"></i>
-                              </a>
-                            </li>
-                            {/* <li>
+                        <li>
+                          <a
+                            href="https://www.instagram.com/yyagency_webpage/"
+                            target="_blank"
+                            onClick={() =>
+                              gtag.event({
+                                action: "링크 클릭",
+                                category: "Footer",
+                                label: "Instagram icon",
+                              })
+                            }
+                          >
+                            <i className="fab fa-instagram"></i>
+                          </a>
+                        </li>
+                        {/* <li>
                               <a
                                 href="https://www.linkedin.com/"
                                 target="_blank"
@@ -102,7 +88,7 @@ class Footer extends Component {
                                 <i className="fab fa-linkedin"></i>
                               </a>
                             </li> */}
-                            {/* <li>
+                        {/* <li>
                               <a
                                 href="https://www.youtube.com/"
                                 target="_blank"
@@ -110,72 +96,72 @@ class Footer extends Component {
                                 <i className="fab fa-youtube"></i>
                               </a>
                             </li> */}
-                          </ul>
-                        </li>
                       </ul>
-                    </div>
-                  </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-                  <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
-                    <div className="single-footer-widget pl-5">
-                      <h3>YY AGENCY 일상</h3>
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="single-footer-widget pl-5">
+                  <h3>YY AGENCY 일상</h3>
 
-                      <ul className="footer-instagram-post">
-                        <li>
-                          <a
-                            href="https://www.instagram.com/yyagency_webpage/"
-                            target="_blank"
-                            onClick={() =>
-                              gtag.event({
-                                action: "링크 클릭",
-                                category: "Footer",
-                                label: "Instagram img",
-                              })
-                            }
-                          >
-                            <img
-                              src="/images/instagram-image/insta-img1.jpg"
-                              alt="image"
-                            />
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://www.instagram.com/yyagency_webpage/"
-                            target="_blank"
-                            onClick={() =>
-                              gtag.event({
-                                action: "링크 클릭",
-                                category: "Footer",
-                                label: "Instagram img2",
-                              })
-                            }
-                          >
-                            <img
-                              src="/images/instagram-image/insta-img2.png"
-                              alt="image"
-                            />
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://www.instagram.com/yyagency_webpage/"
-                            target="_blank"
-                            onClick={() =>
-                              gtag.event({
-                                action: "링크 클릭",
-                                category: "Footer",
-                                label: "Instagram img3",
-                              })
-                            }
-                          >
-                            <img
-                              src="/images/instagram-image/insta-img3.png"
-                              alt="image"
-                            />
-                          </a>
-                        </li>
-                        {/* <li>
+                  <ul className="footer-instagram-post">
+                    <li>
+                      <a
+                        href="https://www.instagram.com/yyagency_webpage/"
+                        target="_blank"
+                        onClick={() =>
+                          gtag.event({
+                            action: "링크 클릭",
+                            category: "Footer",
+                            label: "Instagram img",
+                          })
+                        }
+                      >
+                        <img
+                          src="/images/instagram-image/insta-img1.jpg"
+                          alt="image"
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/yyagency_webpage/"
+                        target="_blank"
+                        onClick={() =>
+                          gtag.event({
+                            action: "링크 클릭",
+                            category: "Footer",
+                            label: "Instagram img2",
+                          })
+                        }
+                      >
+                        <img
+                          src="/images/instagram-image/insta-img2.png"
+                          alt="image"
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/yyagency_webpage/"
+                        target="_blank"
+                        onClick={() =>
+                          gtag.event({
+                            action: "링크 클릭",
+                            category: "Footer",
+                            label: "Instagram img3",
+                          })
+                        }
+                      >
+                        <img
+                          src="/images/instagram-image/insta-img3.png"
+                          alt="image"
+                        />
+                      </a>
+                    </li>
+                    {/* <li>
                           <a
                             href="https://www.instagram.com/yyagency_webpage/"
                             target="_blank"
@@ -208,12 +194,12 @@ class Footer extends Component {
                             />
                           </a>
                         </li> */}
-                      </ul>
-                    </div>
-                  </div>
+                  </ul>
                 </div>
+              </div>
+            </div>
 
-                {/* <div className="copyright-area">
+            {/* <div className="copyright-area">
                   <div className="row align-items-center">
                     <div className="col-lg-6 col-sm-6 col-md-6">
                       <p>
@@ -241,11 +227,11 @@ class Footer extends Component {
                     </div>
                   </div>
                 </div> */}
-              </div>
-            </section>
-          </>
-        );
-    }
+          </div>
+        </section>
+      </>
+    );
+  }
 }
 
 export default Footer;

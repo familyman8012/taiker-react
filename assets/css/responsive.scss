@@ -24,6 +24,9 @@ $paragraph-color: #737b9a;
   p {
     font-size: 14px;
   }
+  .works-area {
+    overflow: hidden;
+  }
   .ptb-100 {
     padding: {
       top: 60px;
@@ -50,6 +53,7 @@ $paragraph-color: #737b9a;
       }
     }
   }
+
   .default-btn {
     font-size: 14px;
     padding: {
@@ -1787,6 +1791,7 @@ $paragraph-color: #737b9a;
     }
   }
   .works-area {
+    overflow: hidden;
     .more-work {
       margin-top: 10px;
     }
