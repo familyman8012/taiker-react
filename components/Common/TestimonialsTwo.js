@@ -105,10 +105,10 @@ class TestimonialsTwo extends Component {
               </div>
               <div className="single-feedback-item border">
                 <p>
-                  “YY AGENCY 의 기술력의 한계는 어디까지인가? 예산 5000만원으로,
-                  여러 스타트업 플랫폼 업체들과의 미팅을 했었지만, 제가 원하는
-                  플랫폼을 만들기에는 불가능했습니다. 윤대표님 덕분에 최고의
-                  플랫폼을 제작했고 이제 곧 서비스 유료화를 진행합니다.
+                  “YY AGENCY 의 기술력의 한계는 어디까지인가? 한정적인 예산을
+                  가지고, 여러 스타트업 플랫폼 업체들과의 미팅을 했었지만, 제가
+                  원하는 플랫폼을 만들기에는 불가능했습니다. 윤대표님 덕분에
+                  최고의 플랫폼을 제작했고 이제 곧 서비스 유료화를 진행합니다.
                   감사합니다.”
                 </p>
                 <div className="client-info">

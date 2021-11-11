@@ -10,11 +10,11 @@ class PricingStyleThree extends Component {
           <div className="section-title">
             <h2>홈페이지 제작 비용</h2>
             <p>
-              고객분들이 원하는 모든 기능을 합리적 가격으로 제공합니다.
-              <br />
-              기본 단가표는 그저 예시일 뿐, 직접 문의주세요
-              <br />
-              (소셜로그인, 게시판, 쇼핑몰 기능 등)
+              대표님들이 원하는 모든 기능을 기대이상의 합리적 가격으로
+              제공합니다.
+              <br /> 모든 제작은 맞춤형으로 제작되는 만큼 무료 컨설팅으로
+              문의주시면
+              <br /> 자세하고 꼼꼼하게 안내해드리겠습니다.
             </p>
             {/* <p>.</p> */}
           </div>
@@ -40,10 +40,10 @@ class PricingStyleThree extends Component {
                   </div>
                 </div>
 
-                <div className="price">
+                {/* <div className="price">
                   <sup></sup> 99만원
                   <sub></sub>
-                </div>
+                </div> */}
                 <div className="box_product_desc">
                   심플하지만 훌륭한 홈페이지를 원하는
                   <br /> 대표님들을 위한 홈페이지입니다.
@@ -52,7 +52,7 @@ class PricingStyleThree extends Component {
                   홈페이지로 추천합니다.
                 </div>
 
-                <ul className="pricing-features">
+                {/* <ul className="pricing-features">
                   <li>
                     <i className="bx bxs-badge-check"></i>
                     반응형 웹페이지
@@ -73,7 +73,7 @@ class PricingStyleThree extends Component {
                     <i className="bx bxs-badge-check"></i>
                     다이나믹 이펙트
                   </li>
-                </ul>
+                </ul> */}
 
                 <div className="btn-box">
                   <Link href="/contact">
@@ -101,9 +101,9 @@ class PricingStyleThree extends Component {
                   <h3>명품 반응형 웹사이트</h3>
                 </div>
 
-                <div className="price">
+                {/* <div className="price">
                   <sup></sup> 280만원 <sub></sub>
-                </div>
+                </div> */}
                 <div className="box_product_desc">
                   최상의 UI/UX, 예쁘고 트렌디한 디자인,
                   <br />
@@ -113,7 +113,7 @@ class PricingStyleThree extends Component {
                   <br /> 고객이 원하는 그 이상의 홈페이지
                 </div>
 
-                <ul className="pricing-features">
+                {/* <ul className="pricing-features">
                   <li>
                     <i className="bx bxs-badge-check"></i>
                     반응형 웹사이트
@@ -138,7 +138,7 @@ class PricingStyleThree extends Component {
                     <i className="bx bxs-badge-check"></i>
                     포털사이트 사이트 등록
                   </li>
-                </ul>
+                </ul> */}
 
                 <div className="btn-box">
                   <Link href="/contact">
@@ -168,9 +168,9 @@ class PricingStyleThree extends Component {
                   <h3>명품 반응형+마케팅</h3>
                 </div>
 
-                <div className="price">
+                {/* <div className="price">
                   <sup></sup> 350만원 <sub></sub>
-                </div>
+                </div> */}
                 <div className="box_product_desc">
                   명품 홈페이지 제작은 물론,
                   <br />
@@ -181,7 +181,7 @@ class PricingStyleThree extends Component {
                   브랜드 가치 및 매출을 높이고 싶은 분들이라면 주목!
                   <br />
                 </div>
-                <ul className="pricing-features">
+                {/* <ul className="pricing-features">
                   <li>
                     <i className="bx bxs-badge-check"></i>
                     반응형 웹페이지
@@ -214,7 +214,7 @@ class PricingStyleThree extends Component {
                     <i className="bx bxs-badge-check"></i>
                     인스타 마케팅 교육 1회
                   </li>
-                </ul>
+                </ul> */}
 
                 <div className="btn-box">
                   <Link href="/contact">
@@ -242,9 +242,9 @@ class PricingStyleThree extends Component {
                   <h3>수익형 E-BIZ 쇼핑몰</h3>
                 </div>
 
-                <div className="price">
+                {/* <div className="price">
                   <sup></sup> 500만원 <sub></sub>
-                </div>
+                </div> */}
                 <div className="box_product_desc">
                   매출을 극대화 하고 싶은 분들을 위해
                   <br />
@@ -254,7 +254,7 @@ class PricingStyleThree extends Component {
                   <br />
                   매월 주기적인 네트워킹
                 </div>
-                <ul className="pricing-features">
+                {/* <ul className="pricing-features">
                   <li>
                     <i className="bx bxs-badge-check"></i>
                     반응형홈페이지 웹&amp;모바일 호환형
@@ -283,7 +283,7 @@ class PricingStyleThree extends Component {
                     <i className="bx bxs-badge-check"></i>
                     간편 로그인(카카오 네이버 로그인)
                   </li>
-                </ul>
+                </ul> */}
 
                 <div className="btn-box">
                   <Link href="/contact">
@@ -312,9 +312,9 @@ class PricingStyleThree extends Component {
                   <h3>품격 높은 기업형 홈페이지</h3>
                 </div>
 
-                <div className="price">
+                {/* <div className="price">
                   <sup></sup> 700만원 <sub></sub>
-                </div>
+                </div> */}
                 <div className="box_product_desc">
                   기업의 품격을 높여주는 기업형 홈페이지입니다.
                   <br />
@@ -324,7 +324,7 @@ class PricingStyleThree extends Component {
                   <br />
                   국내 최고의 IT 사후 서비스 및 교육을 제공합니다.
                 </div>
-                <ul className="pricing-features">
+                {/* <ul className="pricing-features">
                   <li>
                     <i className="bx bxs-badge-check"></i>
                     SEO 최적화, SSL설치
@@ -358,7 +358,7 @@ class PricingStyleThree extends Component {
                     <i className="bx bxs-badge-check"></i>
                     그래프, 지도 등 맞춤 기능제공
                   </li>
-                </ul>
+                </ul> */}
 
                 <div className="btn-box">
                   <Link href="/contact">
@@ -387,9 +387,9 @@ class PricingStyleThree extends Component {
                   <h3>PLATFORM PROJECT</h3>
                 </div>
 
-                <div className="price">
+                {/* <div className="price">
                   <sup></sup> 1000만원 부터 <sub> </sub>
-                </div>
+                </div> */}
                 <div className="box_product_desc">
                   스타트업 대표님들이 원하는 모든 것들을
                   <br />
@@ -399,7 +399,7 @@ class PricingStyleThree extends Component {
                   <br />
                   모든 프로젝트를 최상의 품질로 제작합니다.
                 </div>
-                <ul className="pricing-features">
+                {/* <ul className="pricing-features">
                   <li>
                     <i className="bx bxs-badge-check"></i>
                     NextJs, React, Nodejs
@@ -434,7 +434,7 @@ class PricingStyleThree extends Component {
                   <li>
                     <i className="bx bxs-badge-check"></i>그 밖의 모든 기능
                   </li>
-                </ul>
+                </ul> */}
 
                 <div className="btn-box">
                   <Link href="/contact">

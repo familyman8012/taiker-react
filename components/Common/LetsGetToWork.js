@@ -18,20 +18,21 @@ class LetsGetToWork extends Component {
 
               <div className="col-lg-6">
                 <div className="contact-btn">
-                  <Link href="/contact">
-                    <a
-                      className="default-btn"
-                      onClick={() =>
-                        gtag.event({
-                          action: "링크 클릭",
-                          category: "제작 문의",
-                          label: "바로 진행하기",
-                        })
-                      }
-                    >
-                      문의하기 <span></span>
-                    </a>
-                  </Link>
+                  <a
+                    className="default-btn"
+                    href="https://pf.kakao.com/_cxbjzb/chat"
+                    target="_blank"
+                    rel="noopner noreferrer"
+                    onClick={() =>
+                      gtag.event({
+                        action: "링크 클릭",
+                        category: "Contact",
+                        label: "Kakao talk chanel",
+                      })
+                    }
+                  >
+                    문의하기 <span></span>
+                  </a>
                 </div>
               </div>
             </div>

@@ -16,7 +16,13 @@ class Projects extends Component {
         <div className="container-fluid">
           <div className="section-title">
             <h2>Our portfolio</h2>
-            <span>클리하면 해당 홈페이지로 이동합니다.</span>
+            <span>
+              클릭하면 샘플 페이지로 이동합니다.
+              <br />
+              실제 고객님들에게 제작해드린 홈페이지는 저작권관련해서 올리지
+              않고, <br />
+              간단하게 샘플로 구성된 홈페이지를 통해 참고하실 수 있습니다.
+            </span>
           </div>
           <div className="row gx-4 gy-4">
             <div
