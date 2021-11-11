@@ -9820,5 +9820,8 @@ End Portfolio Agency Learning Page CSS
     top: 92px;
     left: -13px;
   }
+  .pricing-area-two br {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -10,19 +10,11 @@ function Banner() {
       duration: 1000,
     });
   }, []);
-  const showChannelIO = useCallback(() => {
-    gtag.event({
-      action: "제작문의",
-      category: "메인비쥬얼채널톡클릭",
-      label: "메인비쥬얼버튼",
-    });
-    ChannelIO("show");
-  }, []);
   return (
     <div className="portfolio-agency-banner pa-bg1">
       <div className="d-table">
         <div className="d-table-cell">
-          <div className="container mt-80" data-aos="fade-up">
+          <div className="container mt-80">
             <div className="banner-content text-center">
               <h1>
                 고객이 원하는 홈페이지 그 이상 <br />
