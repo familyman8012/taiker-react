@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import * as gtag from "../../utils/gtag";
+import Image from "next/image";
 
 class ProjectsCard extends Component {
   render() {
@@ -11,7 +12,12 @@ class ProjectsCard extends Component {
             <div className="row">
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <div className="single-projects-box">
-                  <img src="/images/projects-image/project1.png" alt="image" />
+                  <Image
+                    src="/images/projects-image/project1.png"
+                    width={839}
+                    height={409}
+                    alt="image"
+                  />
 
                   <div className="projects-content">
                     <h3>
@@ -53,7 +59,12 @@ class ProjectsCard extends Component {
 
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <div className="single-projects-box">
-                  <img src="/images/projects-image/project2.png" alt="image" />
+                  <Image
+                    src="/images/projects-image/project2.png"
+                    width={839}
+                    height={409}
+                    alt="image"
+                  />
 
                   <div className="projects-content">
                     <h3>
@@ -95,7 +106,12 @@ class ProjectsCard extends Component {
 
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <div className="single-projects-box">
-                  <img src="/images/projects-image/project3.png" alt="image" />
+                  <Image
+                    src="/images/projects-image/project3.png"
+                    width={839}
+                    height={409}
+                    alt="image"
+                  />
 
                   <div className="projects-content">
                     <h3>
@@ -137,7 +153,12 @@ class ProjectsCard extends Component {
 
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <div className="single-projects-box">
-                  <img src="/images/projects-image/project4.png" alt="image" />
+                  <Image
+                    src="/images/projects-image/project4.png"
+                    width={839}
+                    height={409}
+                    alt="image"
+                  />
 
                   <div className="projects-content">
                     <h3>
@@ -179,7 +200,12 @@ class ProjectsCard extends Component {
 
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <div className="single-projects-box">
-                  <img src="/images/projects-image/project5.png" alt="image" />
+                  <Image
+                    src="/images/projects-image/project5.png"
+                    width={839}
+                    height={409}
+                    alt="image"
+                  />
 
                   <div className="projects-content">
                     <h3>
@@ -221,7 +247,12 @@ class ProjectsCard extends Component {
 
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <div className="single-projects-box">
-                  <img src="/images/projects-image/project6.png" alt="image" />
+                  <Image
+                    src="/images/projects-image/project6.png"
+                    width={839}
+                    height={409}
+                    alt="image"
+                  />
 
                   <div className="projects-content">
                     <h3>
@@ -262,7 +293,12 @@ class ProjectsCard extends Component {
               </div>
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <div className="single-projects-box">
-                  <img src="/images/projects-image/project7.png" alt="image" />
+                  <Image
+                    src="/images/projects-image/project7.png"
+                    width={839}
+                    height={409}
+                    alt="image"
+                  />
 
                   <div className="projects-content">
                     <h3>
@@ -304,7 +340,12 @@ class ProjectsCard extends Component {
 
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <div className="single-projects-box">
-                  <img src="/images/projects-image/project8.png" alt="image" />
+                  <Image
+                    src="/images/projects-image/project8.png"
+                    width={839}
+                    height={409}
+                    alt="image"
+                  />
 
                   <div className="projects-content">
                     <h3>

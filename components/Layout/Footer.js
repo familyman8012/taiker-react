@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import * as gtag from "../../utils/gtag";
+import Image from "next/image";
 
 class Footer extends Component {
   render() {
@@ -119,8 +120,10 @@ class Footer extends Component {
                           })
                         }
                       >
-                        <img
+                        <Image
                           src="/images/instagram-image/insta-img1.jpg"
+                          width={120}
+                          height={90}
                           alt="image"
                         />
                       </a>
@@ -137,8 +140,10 @@ class Footer extends Component {
                           })
                         }
                       >
-                        <img
-                          src="/images/instagram-image/insta-img2.png"
+                        <Image
+                          src="/images/instagram-image/insta-img2.jpg"
+                          width={120}
+                          height={90}
                           alt="image"
                         />
                       </a>
@@ -155,8 +160,10 @@ class Footer extends Component {
                           })
                         }
                       >
-                        <img
+                        <Image
                           src="/images/instagram-image/insta-img3.png"
+                          width={120}
+                          height={90}
                           alt="image"
                         />
                       </a>

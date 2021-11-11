@@ -70,7 +70,12 @@ class Projects extends Component {
                 }
               >
                 <div className="work-card">
-                  <img src="/images/works/work3.png" alt="image" />
+                  <Image
+                    src="/images/works/work3.png"
+                    width={1465}
+                    height={765}
+                    alt="image"
+                  />
 
                   <div className="content text-center">
                     <span className="s2">학원/교육</span>
@@ -98,7 +103,12 @@ class Projects extends Component {
                 }
               >
                 <div className="work-card">
-                  <img src="/images/works/work2.png" alt="image" />
+                  <Image
+                    src="/images/works/work2.png"
+                    width={1465}
+                    height={765}
+                    alt="image"
+                  />
 
                   <div className="content text-center">
                     <span className="s2">법무범인</span>
@@ -126,7 +136,12 @@ class Projects extends Component {
                 }
               >
                 <div className="work-card">
-                  <img src="/images/works/work4.png" alt="image" />
+                  <Image
+                    src="/images/works/work4.png"
+                    width={1465}
+                    height={765}
+                    alt="image"
+                  />
 
                   <div className="content text-center">
                     <span className="s2">쇼핑</span>
@@ -154,7 +169,12 @@ class Projects extends Component {
                 }
               >
                 <div className="work-card">
-                  <img src="/images/works/work5.png" alt="image" />
+                  <Image
+                    src="/images/works/work5.png"
+                    width={1465}
+                    height={765}
+                    alt="image"
+                  />
 
                   <div className="content text-center">
                     <span className="s2">서비스</span>
@@ -182,7 +202,12 @@ class Projects extends Component {
                 }
               >
                 <div className="work-card">
-                  <img src="/images/works/work6.png" alt="image" />
+                  <Image
+                    src="/images/works/work6.png"
+                    width={1465}
+                    height={765}
+                    alt="image"
+                  />
 
                   <div className="content text-center">
                     <span className="s2">GYM</span>
@@ -210,7 +235,12 @@ class Projects extends Component {
                 }
               >
                 <div className="work-card">
-                  <img src="/images/works/work7.png" alt="image" />
+                  <Image
+                    src="/images/works/work7.png"
+                    width={1465}
+                    height={765}
+                    alt="image"
+                  />
 
                   <div className="content text-center">
                     <span className="s2">인테리어</span>
@@ -238,7 +268,12 @@ class Projects extends Component {
                 }
               >
                 <div className="work-card">
-                  <img src="/images/works/work8.png" alt="image" />
+                  <Image
+                    src="/images/works/work8.png"
+                    width={1465}
+                    height={765}
+                    alt="image"
+                  />
 
                   <div className="content text-center">
                     <span className="s2">쇼핑</span>
