@@ -28,7 +28,7 @@ function Banner() {
                 고객이 원하는 홈페이지 그 이상 <br />
                 YY AGENCY가 만들어갑니다.
               </h1>
-              <p>반응형 홈페이지 &amp; 제작 이후 마켓팅 관리</p>
+              <p>반응형 홈페이지 &amp; 제작 이후 마케팅 관리</p>
 
               <div className="banner-btn">
                 <span className="default-btn mr-4" onClick={showChannelIO}>
