@@ -99,7 +99,6 @@ const App = ({ Component, pageProps }) => {
     <>
       <FacebookPixel />
       <Component {...pageProps} />
-      <GoTop scrollStepInPx="50" delayInMs="16.66" />
       <Talk />
     </>
   );
