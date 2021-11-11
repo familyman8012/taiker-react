@@ -72,22 +72,7 @@ function NavbarInner({ classOne, toggleModal }) {
             Blog
           </a>
         </li>
-        <li className="nav-item">
-          <a
-            className="nav-link"
-            href="https://blog.naver.com/yyagency7"
-            target="_blank"
-            onClick={() =>
-              gtag.event({
-                action: "링크 클릭",
-                category: "header",
-                label: "블로그링크",
-              })
-            }
-          >
-            Blog
-          </a>
-        </li>
+        
 
         <li className="nav-item">
           <Link href="/projects">

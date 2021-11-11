@@ -276,9 +276,11 @@ textarea.form-control {
 .works-area {
   overflow: hidden;
 }
-_::-webkit-full-page-media, _:future, :root .shape-img6 {
-  display:none;
-  }
+_::-webkit-full-page-media,
+_:future,
+:root .shape-img6 {
+  display: none;
+}
 .form-select {
   height: 50px;
   border: 1px solid #eeeeee;
@@ -2741,7 +2743,7 @@ Projects Area CSS
     @media only screen and (min-width: 767px) {
       padding-left: 100px;
       padding-right: 100px;
-      margin-left: 25%;
+      // margin-left: 25%;
     }
   }
 }
