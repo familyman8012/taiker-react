@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import dynamic from "next/dynamic";
-import Image from "next/image";
-
 const OwlCarousel = dynamic(import("react-owl-carousel3"));
 
 const options = {
@@ -73,12 +71,7 @@ class TestimonialsTwo extends Component {
                 </p>
                 <div className="client-info">
                   <h3>커피파는 청년 고객님</h3>
-                  <Image
-                    src="/images/client-image/client1.png"
-                    width={70}
-                    height={70}
-                    alt="image"
-                  />
+                  <img src="/images/client-image/client1.png" alt="image" />
                 </div>
               </div>
 
@@ -95,12 +88,7 @@ class TestimonialsTwo extends Component {
                 </p>
                 <div className="client-info">
                   <h3>이XX 고객님</h3>
-                  <Image
-                    src="/images/client-image/client4.png"
-                    width={70}
-                    height={70}
-                    alt="image"
-                  />
+                  <img src="/images/client-image/client4.png" alt="image" />
                 </div>
               </div>
 
@@ -112,12 +100,7 @@ class TestimonialsTwo extends Component {
                 </p>
                 <div className="client-info">
                   <h3>김XX 고객님</h3>
-                  <Image
-                    src="/images/client-image/client5.png"
-                    width={70}
-                    height={70}
-                    alt="image"
-                  />
+                  <img src="/images/client-image/client5.png" alt="image" />
                 </div>
               </div>
               <div className="single-feedback-item border">
@@ -130,12 +113,7 @@ class TestimonialsTwo extends Component {
                 </p>
                 <div className="client-info">
                   <h3>김XX 고객님</h3>
-                  <Image
-                    src="/images/client-image/client5.png"
-                    width={70}
-                    height={70}
-                    alt="image"
-                  />
+                  <img src="/images/client-image/client5.png" alt="image" />
                 </div>
               </div>
               <div className="single-feedback-item border">
@@ -147,12 +125,7 @@ class TestimonialsTwo extends Component {
                 </p>
                 <div className="client-info">
                   <h3>김XX 고객님</h3>
-                  <Image
-                    src="/images/client-image/client5.png"
-                    width={70}
-                    height={70}
-                    alt="image"
-                  />
+                  <img src="/images/client-image/client5.png" alt="image" />
                 </div>
               </div>
             </OwlCarousel>

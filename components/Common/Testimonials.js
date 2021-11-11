@@ -65,16 +65,13 @@
                       <div className="single-feedback-item">
                         <p>
                           “처음 사업을 시작 하면서 아무것도 모르고 시작했는데,
-                          YY AGENCY덕분에 편안하고 만족스럽게 홈페이지를 제작
-                          했고, 이후에 YY AGENCY 세미나를 통해 사업에 필요한
-                          것들을 배우고 있어요. 너무 감사드려요 다음 세미나
-                          벌써부터 기다려지네요”
+                          YY AGENCY덕분에 편안하고 만족스럽게 홈페이지를 제작 했고, 이후에
+                          YY AGENCY 세미나를 통해 사업에 필요한 것들을 배우고 있어요.
+                          너무 감사드려요 다음 세미나 벌써부터 기다려지네요”
                         </p>
                         <div className="client-info">
-                          <Image
+                          <img
                             src="/images/client-image/client1.png"
-                            width={70}
-                            height={70}
                             alt="image"
                           />
                           <h3>rlaXXXX 고객님</h3>
@@ -89,10 +86,8 @@
                           분들도 너무 친절하세요.”
                         </p>
                         <div className="client-info">
-                          <Image
+                          <img
                             src="/images/client-image/client2.png"
-                            width={70}
-                            height={70}
                             alt="image"
                           />
                           <h3>이XX 고객님</h3>
@@ -101,16 +96,14 @@
 
                       <div className="single-feedback-item">
                         <p>
-                          " 많은 곳을 알아 봤지만 홈페이지 유지 관리를 이렇게
-                          철저하게 해주시고 혼자서도 운영가능 하게 알려 주시는
-                          곳이 여기가 처음인거 같아요. 세미나 가면 또 많은
-                          대표님들과 교류의 장을 열어 주셔서 너무 감사드려요”
+                          " 많은 곳을 알아 봤지만 홈페이지 유지
+                          관리를 이렇게 철저하게 해주시고 혼자서도 운영가능 하게 알려 주시는 곳이 여기가
+                          처음인거 같아요. 세미나 가면 또 많은 대표님들과 교류의
+                          장을 열어 주셔서 너무 감사드려요”
                         </p>
                         <div className="client-info">
-                          <Image
+                          <img
                             src="/images/client-image/client3.png"
-                            width={70}
-                            height={70}
                             alt="image"
                           />
                           <h3>김XX 고객님</h3>
@@ -125,10 +118,8 @@
                           AGENCY와 함께 가고 싶어요"
                         </p>
                         <div className="client-info">
-                          <Image
+                          <img
                             src="/images/client-image/client4.png"
-                            width={70}
-                            height={70}
                             alt="image"
                           />
                           <h3>황XX 고객님</h3>
@@ -146,10 +137,8 @@
                           도움이 되었습니다.”
                         </p>
                         <div className="client-info">
-                          <Image
+                          <img
                             src="/images/client-image/client5.png"
-                            width={70}
-                            height={70}
                             alt="image"
                           />
                           <h3>dlekXXX고객님</h3>
