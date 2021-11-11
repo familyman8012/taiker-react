@@ -9,7 +9,7 @@ class PricingStyleThree extends Component {
         <div className="container">
           <div className="section-title">
             <h2>홈페이지 제작 비용</h2>
-            <p>
+            <p class="desc">
               대표님들이 원하는 모든 기능을 기대이상의 합리적 가격으로
               제공합니다.
               <br /> 모든 제작은 맞춤형으로 제작되는 만큼 무료 컨설팅으로
