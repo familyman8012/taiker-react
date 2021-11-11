@@ -31,9 +31,23 @@ function Banner() {
               <p>반응형 홈페이지 &amp; 제작 이후 마케팅 관리</p>
 
               <div className="banner-btn">
-                <span className="default-btn mr-4" onClick={showChannelIO}>
-                  지금 즉시, 제작 관련 무료 컨설팅<span></span>
-                </span>
+                <a
+                  href="https://pf.kakao.com/_cxbjzb/chat"
+                  target="_blank"
+                  className="talk_banner_link"
+                  rel="noopner noreferrer"
+                  onClick={() =>
+                    gtag.event({
+                      action: "링크 클릭",
+                      category: "Contact",
+                      label: "Kakao talk chanel",
+                    })
+                  }
+                >
+                  <span className="default-btn mr-4">
+                    지금 즉시, 제작 관련 무료 컨설팅<span></span>
+                  </span>
+                </a>
               </div>
             </div>
           </div>

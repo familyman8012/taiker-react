@@ -19,7 +19,7 @@ import "../assets/css/responsive.css";
 // import { initStore } from '../store/reducers/cartReducer';
 // import Loader from '../components/Shared/Loader';
 import GoTop from "../components/Shared/GoTop";
-
+import Talk from "../components/Talk";
 // export default withRedux(initStore)(
 //     class MyApp extends App {
 
@@ -100,6 +100,7 @@ const App = ({ Component, pageProps }) => {
       <FacebookPixel />
       <Component {...pageProps} />
       <GoTop scrollStepInPx="50" delayInMs="16.66" />
+      <Talk />
     </>
   );
 };
