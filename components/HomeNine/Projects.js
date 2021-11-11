@@ -3,7 +3,6 @@ import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import * as gtag from "../../utils/gtag";
-import Image from "next/image";
 
 class Projects extends Component {
   componentDidMount() {
@@ -37,12 +36,7 @@ class Projects extends Component {
                 }
               >
                 <div className="work-card">
-                  <Image
-                    src="/images/works/work1.png"
-                    width={1458}
-                    height={765}
-                    alt="image"
-                  />
+                  <img src="/images/works/work1.png" alt="image" />
 
                   <div className="content text-center">
                     <span className="s2">심리상담</span>
@@ -70,12 +64,7 @@ class Projects extends Component {
                 }
               >
                 <div className="work-card">
-                  <Image
-                    src="/images/works/work3.png"
-                    width={1458}
-                    height={765}
-                    alt="image"
-                  />
+                  <img src="/images/works/work3.png" alt="image" />
 
                   <div className="content text-center">
                     <span className="s2">학원/교육</span>
